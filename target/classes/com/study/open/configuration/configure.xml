@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <transactionManager type="JDBC">
+  	<testData genter="male">zhangsan</testData>
+    <dataSource type="DBCP">
+      <property name="JDBC.Driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" tt="abc"/>
+      <property name="JDBC.ConnectionURL" value="jdbc:sqlserver://129.184.13.175:1433;databaseName=DEVDB" />
+      <property name="JDBC.Username" value="PPR_INTG" />
+      <property name="JDBC.Password" value="PPR_INTG" />
+      <property name="JDBC.MaximumActiveConnections" value="30" />
+      <property name="JDBC.MaximumIdleConnections" value="15" />
+      <property name="JDBC.MaximumWait" value="3000" />
+      <property name="test1" value="3000">50000</property>
+    </dataSource>
+  </transactionManager>

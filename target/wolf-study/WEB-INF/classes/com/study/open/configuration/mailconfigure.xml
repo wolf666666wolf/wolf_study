@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mung-frog-config>
+	<mail mailto="abc@tom.com"> 
+	      <mailhost ip="192.168.1.1">mail.suneca.com</mailhost> 
+	      <mailuser>admin</mailuser> 
+	      <mailpassword>123456</mailpassword> 
+	      <mailsubject>suneca mung frog code generation project</mailsubject> 
+	      <mailtemplate>/WEB-INF/pages/common/mail_template.html</mailtemplate>            
+	      <mailcc>yuzhechen@msn.com<mailto>abc@tom.com</mailto></mailcc>
+      </mail>
+</mung-frog-config>

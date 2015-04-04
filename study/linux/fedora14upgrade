@@ -1,0 +1,11 @@
+Fedora14 upgrade to Fedora16:
+
+1. yum upgrade -y
+   yum install preupgrade
+   preupgrade
+   
+       当执行 "preupgrade"时,会发现/boot空间不够，因为初始化时 boot目录一般分配 100M，
+       如果不够的话可以安装 软件 gprated: 
+       yum install gparted
+      这是一个硬盘分区的软件类似月PM, 我就是用这个软件把swap缩小了500M，把 boot扩大了 500M
+   然后执行 preupgrade,这是一个漫长的过程。

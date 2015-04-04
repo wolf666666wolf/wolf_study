@@ -1,0 +1,23 @@
+1. nohup:
+   startserver.sh & 命令后台运行，但是当关闭客户端的时候命令也会停止。
+   nuhup sh startserver.sh & 命令后台运行，但是关闭client不会停止
+2. xargs和 -exec
+   find ./ -type f| xargs cat  把管道前面的结果作为后面的参数，如果find的结果很多，也不活报错
+   ls *.txt|xargs -n1 -i{} mv {} {}_bk   这里 xargs -n1 –i{} 类似for循环，-n1意思是一个一个对象的去处理，-i{} 把前面的对象使用{}取代，mv {} {}_bak 相当于 mv 1.txt 1.txt_bak
+   ls *.txt -exec mv {} {}_bak 作用同上
+3. rsync 可以理解为remote sync，远程同步
+   rsync -arv 123.txt 129.194.13.141:/root/ 拷贝123.txt到141机器的root目录下
+4. tcpdump抓包工具
+   tcpdump port 17000 > abc.txt 对本机17000端口监控数据包
+5. netstat 查看网络连接状况
+   netstat -Inp查看打开了哪些端口
+   netstat -an| grep 80查看哪些机器连上了服务器
+6. ps查看进程
+   ps aux查看系统启动了哪些进程
+8. free查看内存使用情况，关注第二行数据
+9. sar 命令很强大，它可以监控系统所有资源状态，比如平均负载、网卡流量、磁盘状态、内存使用等等。它不同于其他系统状态监控工具的地方在于，它可以打印历史信息
+10.top
+11.vmstat 监控系统的状态
+12.w 查看当前系统的负载   
+   
+   

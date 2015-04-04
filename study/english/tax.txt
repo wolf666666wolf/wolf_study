@@ -1,0 +1,489 @@
+journal 日报税,日记帐
+ledger 分类账本
+transactions 交易
+post 过账    就是说凭证上的金额 按照科目登记明细账
+tax return preparation就是报税。在一年结束后税务局会发表格给个人或公司申报所得税，如果没有收到的话，纳税人应该主动索取表格，然后纳税人填写妥当之后把表格寄回去个税务局，就叫做tax return。而从收到表格开始，到填写表格和准备寄回给税务局，这些就叫tax return preparation了
+tax authority税务机关
+tax liability 纳税义务
+Ministry of Finance 财政部
+taxpayer liabilities 纳税人账务
+payment  付帐
+refund 退款
+1.liability vs debt
+  负债 liability 是指需要偿还的借款包括
+        银行债务 bank debt
+        应付帐款 account payable
+        应交税金 taxes owed
+        应付工资 wages owed to employees，
+  而debt一般指欠银行的债务。
+2 repayment plan 还款计划
+
+
+ 会计专业常见词汇翻译
+assetturnover资产周转率
+assetvaluation资产计价
+assignment of account sreceivable应收账款转让
+associated company 联属公司,附属公司
+Association of Government Accounting 政府会计师协
+会
+assumed liability 承担债务,承付债务
+AT 税后
+at cost 按成本
+at par 按票面额,平价
+at sight 见票兑付,即期兑付
+attached account 被查封账户
+attachment 扣押,查封
+attest 证明,验证
+attestation 证明书,鉴定书
+audit 审核,审计
+auditability 可审核性
+audit committee 审计委员会
+audit coverage 审计范围
+audited financial statement 审定财务报表,审定会计
+报表
+audit evidence 审计证据,审计凭证
+Audit Guides 《审计指南》
+auditing ①审计②审计学
+auditing procedure 审计程序
+auditing process 审计过程
+auditing standard 审计标准,审计准则
+Auditing Standards Board 审计准则委员会
+Auditor 审计员,审计师
+auditor general 审计主任,总审计
+
+  
+auditor,s opinion审计师意见书
+auditor,s report 审计师报告,查账报告
+audit program 审计工作计划
+audit report 审计报告
+audit risk 审计风险
+audit sampling 审计抽样
+audit software 审计软件
+audit test 审计抽查
+audit trail 审计脉络,审计线索
+audit working paper 审计工作底稿
+authorized capital stock 核定股本,法定股本
+automated clearing house 自动票据交换所
+automated teller machine 自动取款机
+automatic transfer service 自动转账服务
+available asset 可用资产
+available inventory 可用存货
+average balance 平均余额
+average collection period 平均收款期
+average cost 平均成本
+average-cost method 平均成本法
+average inventory 平均存货,平均库存
+average life 平均寿命,平均使用年限
+average payment period (of accounts payable) 应付
+账款平均付款期
+average rate of return 平均收益率
+averages 股票价格平均指数
+avoidable cost 可避免成本
+auditor,s legal liability 审计师法律责任
+资产 assets
+流动资产 current assets
+现金及约当现金 cash and cash equivalents
+库存现金 cash on hand
+零用金/周转金 petty cash/revolving funds
+银行存款 cash in banks
+在途现金 cash in transit
+约当现金 cash equivalents
+其它现金及 约当现金 other cash and cash
+equivalents
+短期投资 short-term investment
+短期投资 -股票 short-term investments - stock
+短期投资 -短期票券 short-term investments - short-
+term notes and bills
+短期投资 -政府债券 short-term investments -
+government bonds
+短期投资 -受益凭证 short-term investments -
+beneficiary certificates
+短期投资 -公司债 short-term investments -
+corporate bonds
+短期投资 -其它 short-term investments - other
+备抵短期投资跌价损失 allowance for reduction of
+short-term investment to market
+应收票据 notes receivable
+应收票据 notes receivable
+应收票据贴现 discounted notes receivable
+应收票据 -关系人 notes receivable - related
+parties
+其它应收票据 other notes receivable
+备抵呆帐 －应收票据 allowance for uncollec- tible
+accounts- notes receivable
+应收帐款 accounts receivable
+ 
+  
+应收帐款 accounts receivable
+应收分期帐款 installment accounts receivable
+应收帐款 -关系人 accounts receivable - related
+parties
+备抵呆帐 －应收帐款 allowance for uncollec- tible
+accounts - accounts receivable
+其它应收款 other receivables
+应收出售远汇款 forward exchange contract
+receivable
+应收远汇款 -外币 forward exchange contract
+receivable - foreign currencies
+买卖远汇折价 discount on forward ex-change
+contract
+应收收益 earned revenue receivable
+应收退税款 income tax refund receivable
+其它应收款 - 关系人 other receivables - related
+parties
+其它应收款 - 其它 other receivables - other
+备抵呆帐 - 其它应收款 allowance for uncollec-
+tible accounts - other receivables
+存货 inventories
+商品存货 merchandise inventory
+寄销商品 consigned goods
+在途商品 goods in transit
+备抵存货跌价损失 allowance for reduction of
+inventory to market
+制成品 finished goods
+寄销制成品 consigned finished goods
+副产品? by-products
+在制品 work in process
+委外加工 work in process - outsourced
+原料 raw materials
+物料 supplies
+在途原物料 materials and supplies in transit
+备抵存货跌价损失 allowance for reduction of
+inventory to market
+预付费用 prepaid expenses
+预付薪资 prepaid payroll
+
+其它预付费用 other prepaid expenses
+预付款项 prepayments
+预付货款 prepayment for purchases
+其它预付款项 other prepayments
+其它流动资产 other current assets
+预付保险费 prepaid insurance
+用品盘存 office supplies
+预付所得税 prepaid income tax
+预付租金 prepaid rents
+
++++++++++++++++++++++++++++
+Withholding Tax Form （代扣所得税表）
+English Language Word or Term Chinese Language Word or Term 
+INDIVIDUAL INCOME TAX WITHHOLDING RETURN 扣缴个人所得税报告表 
+Withholding agent's file number 扣缴义务人编码 
+Date of filing 填表日期 
+Day 日 
+Month 月 
+Year 年 
+Monetary Unit 金额单位 
+RMB Yuan 人民币 元 
+This return is designed in accordance with the provisions of Article 9 of INDIVIDUAL INCOME TAX LAW OF THE PEOPLE'S REPUBLIC OF CHINA. The withholding agents should turn the tax withheld over to the State Treasury and file the return with the local tax authorities within seven days after the end of the taxable month.根据《中华人民共和国个人所得税法》 第九条的规定，制定本表，扣缴义务人应将本月扣缴的税款在次月七日内缴入国库，并向当地税务机关报送本表。 
+Withholding agent's name 扣缴义务人名称 
+Address 地址 
+Telephone Number 电话 
+Tax payer's name 纳税义务人姓名 
+Tax payer's file number 纳税人编码 
+Unit's name and Address 工作单位及地址 
+Categories of income 所得项目 
+Income period 所得时间 
+Revenue 收入额 
+Renminbi (RMB) 人民币 
+Foreign currency 外币 
+Name of currency 货币名称 
+Amount 金额 
+Exchange rate 外汇牌价 
+Renminbi (RMB) converted into 折合人民币 
+Total 人民币合计 
+Deductions 减费用额 
+Taxable Income 应纳税所得额 
+Tax rate 税率 
+Quick calculation deduction 速算扣除数 
+Amount of tax withheld 扣缴所得税额 
+Tax certificate number 完税证字号 
+Date of tax payment 纳税日期 
+In case the tax certificate is filled out by withholding agent, this return should be submitted together with 假如由扣缴义务人填写完税证，应在送此表时附完税证副联-----份 
+Withholding total amount yuan 合计扣缴金额----元 
+Declaration by Withholding agent 扣缴义务人声明 
+I declare that the return is filled out in accordance with the INDIVIDUAL INCOME TAX LAW OF THE PEOPLE'S REPUBLIC OF CHINA, and I believe that the Statements contained in this return are true, correct and complete. 我声明：此扣缴申报报表是根据《中华人民共和国个人所得税法》的规定填报的，我确信它是真实的，可靠的，完整的。 
+Signature 签字 
+General Accountant (signature) 会计主管人签字 
+Responsible officer (signature) 负责人签字 
+Withholding agent (seal) 扣缴单位（或个人）盖章 
+For official use 由以下税务机关填写
+Value Added Tax Payable Statement （应交增值税明细表）
+English Language Word or Term Chinese Language Word or Term 
+Name of enterprise 编制单位 
+Items 项目 
+Line No. 行次 
+Current Month 本月数 
+Current Year Cumulative Amount 年末累计数 
+Amount not yet deducted at beginning of year (represented by a "-" sign) 年初未抵扣数（用"-"反映） 
+VAT on sales 
+　 销项税额 
+VAT Refund for exported goods 出口退税 
+Amount transferred out from VAT on purchase 进项税额转出数 
+Transfer out overpaid VAT 转出多交增值税 
+VAT on purchase 进项税额 
+VAT Paid 已交税金 
+Tax reduced and exempted 
+　 减免税款 
+VAT payable on domestic sales offset against VAT on purchase for export sales 出口抵减内销产品应纳税额 
+Transfer out unpaid VAT 转出未交增值税 
+Amount not deducted at end of period (represented by a "-" sign) 期末未抵扣数（用"-"号反映） 
+VAT unpaid 未交增值税 
+Amount unpaid at beginning of year (amount overpaid represented by a "-" sign) 年初未交数（多交数以"-"号反映） 
+Amount transfer in at current period (amount overpaid represented by a "-" sign) 本期转入数（多交数以"-"号反映） 
+Amount paid at current period 本期已交数 
+Amount unpaid at end of period (amount overpaid represented by a "-" sign) 
+　 期末未交数（多交数以"-"号反映） 
+Head of unit 单位负责人 
+Finance employee in charge 财务负责人 
+Double-check 复核 
+Prepared by 制表
+Enterprise Income Tax - Annual Tax Return （企业所得税年度申报表）
+English Language Word or Term Chinese Language Word or Term 
+Income Tax on Enterprises Annual Tax Return 企业所得税年度纳税申报表 
+Taxation period 税款所属时间 
+Monetary Unit 金额单位 
+Taxpayer's registration number 纳税人识别号 
+Taxpayer's Name 纳税人名称 
+Taxpayer's Address 纳税人地址 
+Zip code (postcode) 邮政编码 
+Type of business 登记注册类型 
+Industry type 行业 
+Taxpayer's bank 纳税人开户银行 
+Bank account number 账号 
+Gross revenue 收入总额 
+Line No. 行次 
+Items 项目 
+Business income 销售（营业）收入 
+Less: Sales return 减：销售退回 
+Depreciation allowance 折扣与折让 
+Net operating revenue 销售（营业）收入净额 
+Amount of exempt income included 其中：免税的销售（营业）收入 
+Income from royalties 特许权使用费收益 
+Investment income 投资收益 
+Net income in investment transfer 投资转让净收益 
+Rental net income 租赁净收益 
+Exchange net income 汇兑净收益 
+Net income from asset/inventory surplus 资产盘盈净收益 
+Subsidy income 补贴收入 
+Other income 其他收入 
+Final. total income 收入总额合计 
+Operating expenses 销售（营业）成本 
+Sales tax 销售税金及附加 
+Total period expenses 期间费用合计 
+Deduction items 扣除项目 
+Including salary bonus Employee benefits. Employee labor union dues. Employee education expenses 其中：工资薪金 职工福利费、职工工会经费、职工教育经费 
+Depreciation of fixed assets 固定资产折旧 
+Amortisation on intangible assets and deferred assets 无形资产、递延资产摊销 
+Research and development expenses 研究开发费用 
+Net interest expense 利息净支出 
+Exchange net loss 汇兑净损失 
+Rental net expense 租金净支出 
+Head office administrative expense 上缴总机构治理费 
+Entertainment expenses 业务招待费 
+Taxation expense 税金 
+Loss on bad debts 坏账损失 
+Additional bad debts provision for prior year 增提的坏账预备金 
+Net loss due to inventory shortage, spoilage and obsolescence 资产盘亏、毁损和报废净损失
+Net loss in investment transfer 投资转让净损失 
+National insurance payment 社会保险缴款 
+Workers insurance expense 劳动保护费 
+Advertising expenditure 广告支出 
+Donations Contributed 捐赠支出 
+Auditing, consulting and litigation expenses 审计、咨询、诉讼费 
+Travelling expenses 差旅费 
+Conference expenses 会议费 
+Transportation, packing, handling and insurance exhibition expense on sales 运输、装卸、包装、保险展览等销售费用 
+Bankruptcy compensation cost 矿产资源补偿费 
+Other deductible expense items 其他扣除费用项目 
+Taxable income calculation 应纳税所得额的计算 
+Income before tax adjustment 纳税调整前所得 
+Plus: Adjustment for additional tax payment 加：纳税调整增加额 
+Including salary bonus tax adjustment 
+Adjustment to tax payment for employee benefits , employee labor union dues, employee education expense. 其中：工资薪金纳税调整额职工福利费、职工工会经费和职工教育经费的纳税调整额 
+Interest expense tax payment adjustment amount 利息支出纳税调整额 
+Entertainment expenses tax adjustment amount 业务招待费纳税调整额 
+Advertising expenditure tax payment adjustment amount 广告支出纳税调整额 
+Tax adjustment for contribution expenditure 赞助支出纳税调整额 
+Donations Contributed Tax Adjustment 捐赠支出纳税调整额 
+Tax adjustment for depreciation and amortisation expenditure 折旧、摊销支出纳税调整额 
+Loss on bad debts tax payment adjustment amount 坏账损失纳税调整额 
+Provision for bad debts tax payment adjustment amount 坏账预备纳税调整额 
+Penalties paid for late late tax payment 罚款、罚金或滞纳金 
+Inventory revaluation reserve 存货跌价预备 
+Short term investments depreciation reserve 短期投资跌价预备 
+Long term investments depreciation reserve 长期投资减值预备 
+Plus other taxable items adjustment 其他纳税调整增加项目 
+Less: Deduction for tax adjustment 减：纳税调整减少额 
+Including research and development expenses 其中：研究开发费用附加扣除额 
+Other tax deductible items 其他纳税调整减少项目 
+After tax adjusted income 纳税调整后所得 
+Less: Prior year deficiency 减：弥补以前年度亏损 
+Less: tax-exempt income 减：免税所得 
+Including government loan interest income 其中：国债利息所得 
+Tax free income subsidy 免税的补贴收入 
+Tax free investment income 免于补税的投资收益 
+Tax free technology transfer income 免税的技术转让收益 
+Other tax free income 其他免税所得 
+Taxable Income 应纳税所得额 
+Applicable tax rate 适用税率 
+Income tax payable 应缴所得税额 
+Less: amount overpaid at beginning of period 减：期初多缴所得税额 
+Prepaid income tax 已预缴的所得税额 
+Tax allowance for domestic investment 应补税的境内投资收益的抵免税额 
+Tax allowance for foreign investment 应补税的境外投资收益的抵免税额 
+Approved income tax reduction 经批准减免的所得税额 
+Taxpayer's representative's seal 纳税人代表签章 
+Taxpayer's unit's seal 纳税人单位公章 
+Date 日期 
+Agent's company seal 代理申报中介机构签章 
+Responsible person 经办人 
+Registered number of responsible person 经办人执业证件号码 
+Completed by tax authority 以下由税务机关填写 
+Date return receive 受理申报日期 
+Person approving 审核人 
+Date of approval 审核日期 
+Tax Authority's Seal 受理申报税务机关公章 
+Excise tax, tax return 营业税纳税申报表 
+Date of filing 填表日期 
+Taxpayer's registration number 纳税人识别号 
+Renminbi (yuan,jiao,fen) 元（列至角分） 
+Taxpayer's Name 纳税人名称 
+Taxation period 税款所属时间 
+Tax Items 税目 
+Operating items 经营项目 
+Turnover 营业额 
+Total Income 全部收入 
+Tax exempt items 不征税项目 
+Abatement item 减除项目 
+Tax reduced items 减免税项目 
+Turnover tax payable 应税营业额 
+Current Period 本期 
+Tax amount payable 应纳税额 
+Less tax paid 减免税额 
+If this return is filled by tax payer, the following should be completed by that tax payer. 如纳税人填报，由纳税人填写以下各栏 
+General Accountant (seal) 会计主管（签章） 
+Tax payer (seal) 纳税人（公章） 
+If this return is filled by an authorized agent, following should be completed by that agent. 如委托代理人填报，由代理人填写以下各栏 
+Agent's Name 代理人名称 
+Address 地址 
+Agent's seal 代理人（公章） 
+Completed by tax authority 以下由税务机关填写 
+Received by tax authority 收到申报表日期 
+Received by 接收人 
+Tax return for stamp tax 印花税纳税申报表 
+Taxpayer's registration number 纳税人识别号 
+Taxpayer's Name 纳税人名称 
+Taxation period 税款所属时间 
+Tax payment receipt 应税凭证名称 
+Number of units 件数 
+Applicable tax rate 适用税率 
+Amount tax paid 已纳税额 
+Stamp purchases information 购花贴情况 
+Stamps on hand at beginning of period 上期结存 
+Current period purchases 本期购进 
+Current period use 本期贴花 
+Current Period balance 本期结存 
+If this return if filled by a tax payer, the following should be completed by that tax payer.
+　 如纳税人填报，由纳税人填写以下各栏 
+General Accountant (seal) 会计主管（签章） 
+Tax payer (seal) 纳税人（公章） 
+If this return is filled by an authorized
+agent .the following should be completed by that agent 
+　 如委托代理人填报，由代理人填写以下各栏 
+Agent's Name 代理人名称 
+Agent's address 代理人地址 
+Agent's seal 代理人（公章） 
+Completed by tax authority 以下由税务机关填写 
+Received by tax authority 收到申报表日期 
+Annual Income Tax return for Foreign Companies 外商投资企业和外国企业年度所得税申报表 
+Tax year 纳税年度 
+This return is designed in accordance with the provisions of Article of 16 and Detailed rules and Regulations of Article 95 of FOREIGN INVESTMENT BUSINESS INCOME TAX LAW OF THE PEOPLE'S REPUBLIC OF CHINA. The company should fill the return and turn it over to the local tax authorities within four months of fiscal year end. The financial accounts certificate public accounts (China) audits report and related explanation should be attached. 根据《中华人民共和国外商投资企业和外国企业所得税法》第十六条及其实施细则第九十五条的规定，特制定本表，你企业应当纳税年度终了后4个月内如实填写本表，报送当地税务机关，并附送财务会计报表、中国注册会计师查账报告及有关的说明材料。 
+Zip code (postcode) 邮政编码 
+Industry type 行业 
+Date trading commenced 开始生产、经营日期 
+Profit making year 开始获利年度 
+Bank account 银行账号 
+Net revenue 收入净额 
+Deduction 扣除额 
+Taxable income calculation 应纳税所得额的计算 
+Approved taxable income calculation 核定应纳税所得额的计算 
+Company income tax payable calculation 应纳企业所得税额的计算 
+Local income tax payable calculation 应纳地方所得税额的计算 
+Items 项目 
+Net amount of current year merchandise sales or business income 本年销售（销货）或营业收入净额 
+Current year operating expense (for merchandise sales or business income) 本年销售（销货）或营业成本 
+Current year finance, administration and overhead expenses relating to merchandise sales or business 本年度销售（销货）或营业费用、财务费用及治理费用 
+Current year tax expense relating to merchandise sales or business operations 本年度销售（销货）或营业税金 
+Deduction total 扣除额合计 
+Including entertainment expenses 其中：交际应酬费 
+Salary and welfare fund expense 工资、福利费 
+Rental expense 租金支出 
+Royalty 特许权使用费 
+Interest expense 利息支出 
+Depreciation expense 折旧费 
+Current year profit (or loss) from merchandise sales or business 本年销售（销货）或营业利润(亏损)额 
+Other business profit (or loss) amount in current year 本年其他业务利润（亏损）额 
+Net amount of current year non-operating income and expense 本年营业外收支净额 
+Taxable Income 应纳税所得额 
+Current year total income 本年收入总额 
+Taxable Income 应纳税所得额 
+Tax rate % 税率% 
+Company income tax payable 应纳企业所得税额 
+Less amount of company tax paid 减免企业所得税额 
+Local income tax payable 应纳地方所得税额 
+Less amount of local tax paid 减免地方所得税额 
+Prepaid tax for year 全年预缴税额 
+Foreign tax credits 外国税额扣除 
+Amount shown in account books 账载金额 
+Explanatory comment 备注 
+Authorized agent 授权代理人 
+If you have entrusted a agent. Please fill in the following. To deal with all tax issues, we now authorize _____ (address) to be agent of our company, and any correspondence related to statement is considered reasonable to be sent to this agent. 假如你已委托代理申报人，请填写下列 资料。为代理一切税务事宜现授权______（地址）为本企业的代理申报人，任何与本申报表有关的来往文件都可寄与此人。 
+Authorized signature 授权人签字 
+Statement 声明： 
+I declare that this return is filled out in accordance with FOREIGN INVESTMENT BUSINESS INCOME TAX LAW OF THE PEOPLE'S REPUBLIC OF CHINA. I believe that this return is true ,correct and complete. 我声明：此纳税申报表是根据 《中华人民共和国外商投资企业和外国企业所得税法》规定填报的，我确信它是真实的、可靠的、完整的。 
+Person making statement 声明人 
+General Accountant (signature) 会计主管人签字 
+Agent's signature 代理申报人签字 
+Company seal 企业盖章 
+Date received by tax authority 收到日期 
+Date of approval 审核日期 
+Approved Memo 审核记录 
+Seal of tax authority 主管税务机关盖章 
+Signature of tax officer in charge 主管税务官员签字
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Tax type
+1. VAT:Value added tax      增值税
+   ITL: Corporate income tax 企业所得税
+   ITN：Business income tax 企业所得税
+   PAY：Salary tax withheld by employer  工资税
+   STX: Salary tax paid by employee
+   DEP: Duty for environment polluters 环境污染税
+   INH： Inheritance tax利息税
+   STD： Stamp duty印花税
+   REE：Real estate tax不动产税
+   IIT：Incidental income tax
+   WHT：Withholding tax for legal entities
+2 Liability type
+	TAXLB	Tax
+	PNLTY	Late filing penalty 迟交罚款
+	LPPEN	Late payment penalty 滞纳金:指对不按纳税期限缴纳税款的纳税人，按滞纳天数加收滞纳税款一定比例的款项，它是税务机关对逾期缴纳税款的纳税人给予经济制裁的一种措施
+	ADTAX	Additional tax 附加税:
+	LRPEN	Late registration penalty 晚注册处罚
+	INPRO	Interest on provisional payments
+	INRPP	Interest on repayment plan installment
+	RPPIN	Repayment plan installment
+	PROTA	Provisional tax
+	GLDPA	Gold payment
+	MONPA	Monthly payment
+	PROPA	Provisional payment
+	SAPRO	Sale proceedings
+	TPCOL	Third party collection第三方催收
+	SUSPS	Suspense
+	CLRPD	Cash loss repaid
+	ASSLS	Assessed loss 
+	
+3.carry over   连在一起用是延期，转到下一页或者是继续的意思，比较正式和书面
+  carry over credit	  
+4.obligation: 还没有录入系统的税单，这是纳税人已经收到  

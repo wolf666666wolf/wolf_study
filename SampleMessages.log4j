@@ -1,0 +1,20 @@
+<log4j:event logger="com.study.open.log.LogTest" timestamp="1306202824933" level="DEBUG" thread="main">
+<log4j:message><![CDATA[##########DEBUG]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.study.open.log.LogTest" timestamp="1306202824933" level="INFO" thread="main">
+<log4j:message><![CDATA[##########INFO]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.study.open.log.LogTest" timestamp="1306202824933" level="WARN" thread="main">
+<log4j:message><![CDATA[##########WARN]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.study.open.log.LogTest" timestamp="1306202824933" level="ERROR" thread="main">
+<log4j:message><![CDATA[##########ERROR]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.study.open.log.LogTest" timestamp="1306202824964" level="FATAL" thread="main">
+<log4j:message><![CDATA[##########FATAL]]></log4j:message>
+</log4j:event>
+

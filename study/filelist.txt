@@ -1,0 +1,55 @@
+file
+io
+sectury
+effective java
+
+refactor: refactor in action
+pattern:研磨设计模式
+j2ee core pattern
+Sturts
+Spring
+jvm: 深入理解Java虚拟机
+
+maven
+敏捷
+统一过程
+我编程，我快乐
+
+
+
+3. refactoring – improve the design of existing code
+  Martin Fowler的经典著作之一。初看的时候一头冷汗，他指出的很多错误我也犯过。
+
+
+5. J2EE Design & Development
+
+作者仍然是Rod Johnson, 
+
+ 
+
+6. Domain Driven Design – Tackling Complexity In The Heart Of Software
+
+近两年来对自己影响最大的一本书。俺到处推广之。
+
+7. 领域驱动设计与模式实战
+
+8. 企业应用架构模式
+
+9. 敏捷软件开发 原则.模式与实践
+
+10. 分析模式：可重用对象模型
+
+11. 重构与模式
+
+12. 面向模式的软件体系结构
+
+网络硬盘工具： SDExplorer: http://www.cloudstorageexplorer.com/
+
+评论：重要的东西放在网络硬盘上，得选个靠谱的网络硬盘。微软够靠谱儿吧？25G sky drive免费空间。但是sky drive太慢了。可以用这个工具把sky drive网络硬盘映射到你自己的机器上，就像本地的磁盘一样，方便。我上面共享的hibernate笔记就是放在sky drive上的。 之前共享的 分享十二本经典电子书，涉及java, OO design, spring, hibernate,struts2, agile 也放在那上面。
+
+
+红枣10个    枸杞20个    山药30克    薏苡仁30克     扁豆20克   小米或大米若干，一起熬粥 治疗脾虚、肾虚、肝郁
+
+
+source:
+https://htmlparser.svn.sourceforge.net/svnroot/htmlparser/trunk/

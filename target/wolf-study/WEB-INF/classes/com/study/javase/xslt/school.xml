@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school>
+	<name>北京四中</name>
+	<address>北京海淀</address>
+	<desc>Hello this a great school</desc>
+	<students>
+	<student>
+		<id>8523</id>
+		<name>zhangsan</name>
+	</student>
+	<student>
+		<id>8524</id>
+		<name>lisi</name>
+	</student>
+	</students>
+</school>

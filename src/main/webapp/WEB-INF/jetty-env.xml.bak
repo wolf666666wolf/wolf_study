@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
+<Configure class="org.mortbay.jetty.webapp.WebAppContext"> 
+				   
+  <New id="dataSource" class="org.mortbay.jetty.plus.jndi.Resource">  
+    <Arg>devDs</Arg>  
+    <Arg>  
+      <New class="org.apache.commons.dbcp.BasicDataSource">  
+        <Set name="driverClassName">org.hsqldb.jdbcDriver</Set>  
+        <Set name="url">jdbc:hsqldb:hsql://localhost:9002/sells</Set>  
+        <Set name="username">sa</Set>  
+        <Set name="password"></Set>  
+      </New>  
+    </Arg>  
+  </New>  
+</Configure> 
+<!-- 
+<Configure id="hdss-x-context" class="org.mortbay.jetty.webapp.WebAppContext">
+	<New id="hdss-x-ds" class="org.mortbay.jetty.plus.naming.Resource">
+		<Arg>jdbc/hdss-x</Arg>
+		<Arg>
+			<New class="org.apache.commons.dbcp.BasicDataSource">
+				<Set name="driverClassName">${dbDriver}</Set>
+				<Set name="url">${dbUrl}</Set>
+				<Set name="username">${dbUser}</Set>
+				<Set name="password">${dbPass}</Set>
+			</New>
+		</Arg>
+	</New>
+</Configure>
+ -->

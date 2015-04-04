@@ -1,0 +1,14 @@
+1 导入导出数据
+  导出：在windows命令下
+  c:> mysqldump -uroot -pnewroot homelink blackname > E:/workspace/wolf-study/src/main/java/com/study/open/htmlparser/dao/blackname.sql
+ 导入：在mysql命令下
+  SQL> source E:/workspace/wolf-study/src/main/java/com/study/open/htmlparser/dao/blackname.sql
+  
+  
+  
+2基本操作：
+  mysql -h localhost -u root -p
+  newroot
+  
+  use homelink;
+  show tables;  

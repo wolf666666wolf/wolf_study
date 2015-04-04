@@ -1,0 +1,88 @@
+  <Assessment>
+		<assessmentDetail>
+			<assessedField>
+				<id>DE14_TIN</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0073900427</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Total_taxable_assets_in_Iran</id>
+				<assessedValue>44000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Total_assets_revised</id>
+				<assessedValue>44000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_NetHeritage</id>
+				<assessedValue>22000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Share_of_inheritance</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">220000.0000</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Total_assets_declared</id>
+				<assessedValue>44000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Total_liabilities_and_expenses_revised</id>
+				<assessedValue>10000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Category</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">01</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_General_will_value</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Share_from_assets_abroad</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Share_from_avow_will_assets</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Share_from_avow_will_liabilities_and_expenses</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Share_Net_from_avow_will</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Total_liabilities_and_expenses_avow_will</id>
+				<assessedValue>0.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Exemption_reason</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Exemptions</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">0</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Gross_assets</id>
+				<assessedValue>32000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Total_liabilities_and_expenses_declared</id>
+				<assessedValue>10000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Liabilities_balance</id>
+				<assessedValue>0.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE13_Total_assets_avow_will</id>
+				<assessedValue>12000.00</assessedValue>
+			</assessedField>
+			<assessedField>
+				<id>DE14_Total_taxable_net</id>
+				<assessedValue rowNum="1" tableId="sec3_demographic_data_heirs_executer_will_beneficiary">220000.00</assessedValue>
+			</assessedField>
+		</assessmentDetail>
+</Assessment>		

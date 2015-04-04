@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <transactionManager type="JDBC">
+    <dataSource type="DBCP">
+      <property name="JDBC.Driver" value="com.mysql.jdbc.Driver"/>
+      <property name="JDBC.ConnectionURL" value="jdbc:mysql://localhost:3306/house?useUnicode=true&amp;characterEncoding=UTF8"/>
+      <property name="JDBC.Username" value="root" />
+      <property name="JDBC.Password" value="newroot" />
+      <property name="JDBC.MaximumActiveConnections" value="30" />
+      <property name="JDBC.MaximumIdleConnections" value="15" />
+      <property name="JDBC.MaximumWait" value="3000" />
+      <property name="test1" value="3000">50000</property>
+    </dataSource>
+  </transactionManager>

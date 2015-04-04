@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by 123 (456) -->
+<project name="tac" default="compress" basedir=".">
+	<property file="${basedir}/env.properties"/>
+
+
+
+	<property name="lib.dir" value="${server.home}"/>
+    <property name="framework.lib.dir" value="${server.home}/../framework.lib"/>
+    <property name="framework.dir" value="${server.home}/../framework"/>
+	<property name="conf.dir" value="${server.home}/../conf"/>
+	<property name="src.java.dir" value="${basedir}/../util/java"/>
+	<property name="src.apijava.dir" value="${basedir}/../api/java"/>
+	<property name="src.test.dir" value="${basedir}/../test"/>
+	<property name="src.joda.dir" value="${basedir}/../joda"/>
+	<property name="build.joda.bin" value="${build.dir}/joda/classes/"/>
+	<property name="build.dir" value="${basedir}"/>
+	<property name="build.dir.bin" value="${build.dir}/util/classes"/>
+	<property name="build.apidir.bin" value="${build.dir}/api/classes/"/>
+	<property name="build.dir.testbin" value="${build.dir}/test/classes"/>
+	<property name="iris.tac.eris_tac_conf" value="${src.java.dir}/eris_tac_conf"/>
+	<property name="build.dir.bin.eris_tac_conf" value="${build.dir.bin}/eris_tac_conf"/>
+	<property name="build.dir.dist" value="${basedir}/../build_jars/dist"/>
+	<property name="report.dir" value="${basedir}/../build_jars/report"/>
+	<path id="master-classpath">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar"/>
+		</fileset>
+		<fileset dir="${framework.lib.dir}">
+			<include name="*.jar"/>
+		</fileset>
+			<fileset dir="${framework.dir}">
+			<include name="*.jar"/>
+		</fileset>
+		<dirset dir="${build.dir}">
+			<include name="**/classes"/>
+		</dirset>
+
+	</path>
+	<target name="clean" >
+		<delete dir="${build.dir.bin}"/>
+		<delete dir="${build.apidir.bin}"/>
+		<delete dir="${build.dir.testbin}"/>
+		<delete dir="${build.dir.dist}"/>
+		<delete dir="${src.java.dir}"/>
+		<delete dir="${src.apijava.dir}"/>
+		<delete dir="${src.test.dir}"/>
+		<delete dir="${report.dir}"/>
+	</target>
+
+	<target name="init" depends="clean">
+
+		<echo message="Start initinial build environment"/>
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${build.dir.bin}"/>
+		<mkdir dir="${build.dir.testbin}"/>
+		<!--store build output-->
+		<mkdir dir="${build.dir.dist}"/>
+		<mkdir dir="${build.apidir.bin}"/>
+		<mkdir dir="${src.apijava.dir}"/>
+        <!--delete dir="${src.java.dir}"/-->
+		
+		<copy todir="${src.java.dir}">
+			<fileset dir="E:/workspace/MF_DEV/src/TAC/src/tacUtil/java"/>
+			<fileset dir="E:/workspace/MF_DEV/src/TAC/src/tacAPI/java"/>
+		</copy>
+	</target>
+
+	<target name="compile" depends="init">
+		<echo message="Start compile all java codes "/>
+
+		<javac fork="true" debug="true" debuglevel="lines,vars,source" srcdir="${src.java.dir}" destdir="${build.dir.bin}" includeantruntime="false">
+			<classpath refid="master-classpath"/>
+		</javac>
+		<!--
+		<javac fork="true" debug="true" debuglevel="lines,vars" srcdir="${src.apijava.dir}" destdir="${build.apidir.bin}">
+		<classpath refid="master-classpath"/>
+		</javac>
+		-->
+		<!--
+		<javac fork="true" debug="true" debuglevel="lines,vars" srcdir="${src.test.dir}" destdir="${build.dir.testbin}">
+		<classpath refid="master-classpath"/>
+		</javac>
+		-->
+	</target>
+	
+	<target name="compress" depends="compile">
+		<echo message="Start generate TAC archive"/>
+		<!-- <copy file="${iris.ret.property}" todir="${build.dir.bin}"/> -->
+		<copy todir="${build.dir.bin}">
+			<fileset dir="${src.java.dir}">
+				<include name="**/*.xml"/>
+			</fileset>
+			<fileset dir="${src.java.dir}">
+				<include name="**/*.properties"/>
+			</fileset>
+		</copy>
+		<copy todir="${build.dir.bin.eris_tac_conf}">
+			<fileset dir="${iris.tac.eris_tac_conf}"/>
+		</copy>
+
+
+		<jar destfile="${build.dir.dist}/${jar.name}" basedir="${build.dir.bin}">
+
+			<exclude name="com/bull/eris/tac/api/**"/>
+
+			<include name="com/**/*.*"/>
+			<include name="**/*.properties"/>
+			<include name="**/*.xml"/>
+		</jar>
+
+		<jar destfile="${build.dir.dist}/${api.jar.name}" basedir="${build.dir.bin}">
+
+			<include name="com/bull/eris/tac/api/**"/>
+			<include name="com/bull/eris/tac/cmn/model/**"/>
+			<include name="com/bull/eris/tac/cmn/constant/**"/>
+			<include name="com/bull/eris/tac/cmn/exception/**"/>
+		</jar>
+
+
+		<copy file="${build.dir.dist}/${jar.name}" todir="${lib.dir}"/>
+		<copy file="${build.dir.dist}/${jar.name}" todir="E:\workspace\MF_DEV\lib\"/>
+		<!-- delete classes-->
+		<delete dir="${build.dir.bin}"/>
+		<!--
+		<copy file="${build.dir.dist}/${api.jar.name}" todir="${lib.dir}"/>
+		-->
+	</target>
+	
+	<target name="help">
+		<echo message=""/>
+		<echo message="${module.name} build file"/>
+		<echo message="-----------------------------------"/>
+		<echo message=""/>
+		<echo message="Available targets are:"/>
+		<echo message=""/>
+		<echo message="compile     "/>
+		<echo message="compress  "/>
+		<echo message="deploy    "/>
+		<echo message="clean     "/>
+		<echo message="copyjar   "/>
+		<echo message="   "/>
+	</target>
+</project>

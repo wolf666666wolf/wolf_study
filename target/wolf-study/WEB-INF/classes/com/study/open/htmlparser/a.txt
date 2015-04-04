@@ -1,0 +1,716 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>【龙湖香醍漫步四区二手房|顺义县城龙湖香醍漫步四区二手房源出售信息】-北京小区-链家在线</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="链家在线-龙湖香醍漫步四区为您提供最全面的北京市顺义顺义县城龙湖香醍漫步四区二手房房源信息：包括龙湖香醍漫步四区二手房出售、龙湖香醍漫步四区二手房交易和龙湖香醍漫步四区二手房转让信息。找龙湖香醍漫步四区二手房，就上链家在线！" />
+<meta name="keywords" content="龙湖香醍漫步四区二手房" />
+<link type="text/css" rel="stylesheet" href="/themes/2010a/template/ershoufang/css/instance/footer.css">
+<link type="text/css" rel="stylesheet" href="/themes/2010a/template/xiangqing/css/common/global.css">
+<link type="text/css" rel="stylesheet" href="/themes/2010a/template/xiangqing/css/instance/list.css">
+<link type="text/css" rel="stylesheet" href="/themes/2010a/template/xiangqing/css/instance/district.css">
+<link type="text/css" rel="stylesheet" href="/frontpage/css/instance/header.css">
+
+<link type="text/css" rel="stylesheet" href="/frontpage/css/instance/jquery.autocomplete.css">
+<script type="text/javascript" language="javascript" src="/themes/2010a/template/xiangqing/js/jquery.js"></script>
+
+<script type="text/javascript" language="javascript" src="/themes/2010a/template/xiangqing/js/jquery.cookie.js"></script>
+<script type="text/javascript" language="javascript" src="/themes/2010a/template/ershoufang/js/zDialog.js"></script>
+<script type="text/javascript" language="javascript" src="/themes/2010a/template/xiangqing/js/tab1.js"></script>
+<script type='text/javascript' src='/frontpage/js/jquery.autocomplete.js'></script>
+<script type='text/javascript' src='/xiangqing/js/channel_search_xq.js'></script>
+<script type="text/javascript" src="/themes/2010a/template/housesell/js/swfobject_modified.js"></script>
+<script>
+	function hidden1 (uc_id) {
+		if(uc_id == ''){
+			opennewpage(327,260,'/themes/2010a/template/inc/Loggedout.html');
+			return;
+		}
+		document.getElementById("issue_1").style.display="";
+		document.getElementById("issue_2").style.display="none";
+		document.getElementById("issue_3").style.display="none";
+	}
+	function hidden2 () {
+		document.getElementById("issue_1").style.display="none";
+		document.getElementById("issue_2").style.display="";
+		document.getElementById("issue_3").style.display="none";
+	}
+	function hidden3 () {
+		document.getElementById("issue_1").style.display="none";
+		document.getElementById("issue_2").style.display="none";
+		document.getElementById("issue_3").style.display="";
+	}
+	function hidsn (name) {
+		document.getElementById(name).style.display="none";
+	}
+</script>
+<SCRIPT type="text/javascript"><!--=左侧浮动=-->
+<!-- <![CDATA[
+$(function() {
+	$('.floatlayer ul li a, #member-bar p .msg').not('.floatlayer ul li.service a, .floatlayer ul li.branch a').click(function() {
+        $('html, body').scrollTop(0);
+        return false;
+    });
+
+    $(window).scroll(function() {
+        if (true == $.browser.msie && 6 == parseInt($.browser.version, 10)) {
+            $('.floatlayer').css('top', $(window).scrollTop() + 88 + 'px');
+        }
+    });
+
+    if ($(window).width() > 1016) {
+        $('.floatlayer').css({right: (($(window).width() - 1030) / 2) + 'px'});
+    }
+});
+// ]]> -->
+</SCRIPT>
+</head>
+
+<body class="bodybg">
+
+<link REL="Shortcut Icon" href="/lian.ico">
+<!--=header=-->
+<div class="header_landing">
+<p id="user_unlogin"  style="display:block"  >您好.请<nofollow><a href="/myhomelink/webregister/login.php" target="_blank">登录</a></nofollow>以获取订制房源. 新客户? <nofollow><a href="/myhomelink/webregister/" target="_blank">点这里注册</a></nofollow></p>
+  <!--== 登陆后状态==-->
+  <p id="user_login" style="display:none"  >欢迎您来链家在线，<a href="/myhomelink/" id="username" target="_blank"></a>！<!--<a href="#">订阅</a>(<span>2</span>)&nbsp;&nbsp;<a href="#">站内信</a>(<span>2</span>)&nbsp;&nbsp;--><a href="/myhomelink/" target="_blank">我的链家</a>&nbsp;&nbsp;[<a href="/myhomelink/webregister/logout.php" class="gray_line">退出</a>]</p><link REL="Shortcut Icon" href="/lian.ico">
+
+  <!--<div class="fanhui_jb"><a href="http://beijing.homelink.com.cn/">返回旧版</a></div>-->
+  <script>
+function addShouCang() {
+var title=document.title;
+var url=window.location.href;
+if (document.all){
+window.external.addFavorite(url, title);
+}else if (window.sidebar){
+window.sidebar.addPanel(title, url+'?utm_source=bookmarks&utm_medium=browser&utm_term=&utm_content=&utm_campaign=bookmarks', '');
+}
+} 
+</script>
+<dl class="soucangsan">
+	<a href="javascript:addShouCang();" onclick="_gaq.push(['_trackPageview','virtual/Bookmarks']);" class="sy_gray">点击收藏</a>
+</dl>
+<dl class="kefusan">
+    客服热线：<span>4007-001-001</span>
+  </dl>
+
+  <ul>
+    <div id="citylist1" class="header_navigation" style="display:none" onmouseover="ShowDivCity1();"  onmouseout="HiddenDivCity1();">
+      <div class="s_navigation">网站导航</div>
+      <div class="s_navcon">
+        <dl>
+          <a href="/ershoufang/" class="green_line bolder">二手房</a><br />
+          <a href="/ershoufang/" class="blue_line">区域找房</a><br />
+
+        <a href="/ershoufang/d1/" class="gray_line">朝阳</a>&nbsp;<a href="/ershoufang/d2/" class="gray_line">海淀</a>&nbsp;<a href="/ershoufang/d3/" class="gray_line">丰台</a>&nbsp;<a href="/ershoufang/d4/" class="gray_line">东城</a>&nbsp;<a href="/ershoufang/d5/" class="gray_line">西城</a>&nbsp;<a href="/ershoufang/d6/" class="gray_line">崇文</a>&nbsp;<a href="/ershoufang/d7/" class="gray_line">宣武</a>&nbsp;<a href="/ershoufang/d8/" class="gray_line">石景山</a>&nbsp;<a href="/ershoufang/d9/" class="gray_line">昌平</a>&nbsp;<a href="/ershoufang/d10/" class="gray_line">通州</a>&nbsp;<a href="/ershoufang/d11/" class="gray_line">大兴</a>&nbsp;<a href="/ershoufang/d12/" class="gray_line">顺义</a>&nbsp;<br /> 
+	<a href="/ershoufang/ditie/" class="blue_line">地铁找房</a>&nbsp;<a href="/ershoufang/huanxian/" class="blue_line">环线找房</a>&nbsp;<a href="/ditu/" class="blue_line">地图找房</a>
+
+        </dl>
+          <a href="/zufang/" class="green_line bolder">租房</a><br />
+        <dl>
+          <a href="/zufang/" class="blue_line">区域找房</a>&nbsp;<a href="/zufang/ditie/" class="blue_line">地铁找房</a>&nbsp;<a href="/zufang/huanxian/" class="blue_line">环线找房</a>&nbsp;<a href="/ditu/zf/" class="blue_line">地图找房</a>
+        </dl>
+        <dl>
+
+          <a href="/ditu/" class="green_line bolder">地图找房</a>
+        </dl>
+        <dl>
+          <a href="/xiaoqu/" class="green_line bolder">小区房价</a><br />
+          <a href="/xiaoqu/d1/" class="gray_line">朝阳</a>&nbsp;<a href="/xiaoqu/d2/" class="gray_line">海淀</a>&nbsp;<a href="/xiaoqu/d3/" class="gray_line">丰台</a>&nbsp;<a href="/xiaoqu/d4/" class="gray_line">东城</a>&nbsp;<a href="/xiaoqu/d5/" class="gray_line">西城</a>&nbsp;<a href="/xiaoqu/d6/" class="gray_line">崇文</a>&nbsp;<a href="/xiaoqu/d7/" class="gray_line">宣武</a>&nbsp;<a href="/xiaoqu/d8/" class="gray_line">石景山</a>&nbsp;<a href="/xiaoqu/d9/" class="gray_line">昌平</a>&nbsp;<a href="/xiaoqu/d10/" class="gray_line">通州</a>&nbsp;<a href="/xiaoqu/d11/" class="gray_line">大兴</a>&nbsp;<a href="/xiaoqu/d12/" class="gray_line">顺义</a>&nbsp;        </dl>
+
+        <dl>
+          <a href="/loan/" class="green_line bolder">房屋贷款</a>
+        </dl>
+        <dl>
+          <a href="/jingjiren/" class="green_line bolder">经纪人</a>
+        </dl>
+        <dl>
+          <a href="/ask/" class="green_line bolder">问答</a>
+
+        </dl>
+
+      </div>
+    </div>
+    网站导航<a onmouseout="HiddenDivCity1();" onmouseover="ShowDivCity1();" href="javascript:void(0);" class="wu">&nbsp;&nbsp;</a>
+  </ul>
+  <!--
+  <ol>
+    <a href="http://weibo.com/bjhomelink/" target="_blank" class="sy_gray" rel="nofollow">关注到微博</a>
+  </ol>
+  -->
+</div>
+<div class="header_logo">
+  <dl>
+
+    <div class="header_choosecity">
+      <div id="citylist" class="header_choosecitycon" style="display:none" onmouseover="ShowDivCity();"  onmouseout="HiddenDivCity();"><a href="http://beijing.homelink.com.cn" target="_blank" onclick="setCookie('site','beijing');">北京</a>&nbsp;&nbsp;<a href="http://tianjin.homelink.com.cn" target="_blank" onclick="setCookie('site','tianjin');">天津</a>&nbsp;&nbsp;<a href="http://dalian.homelink.com.cn" target="_blank" onclick="setCookie('site','dalian');">大连</a><br /><a href="http://nanjing.homelink.com.cn" target="_blank" onclick="setCookie('site','nanjing');">南京</a>&nbsp;&nbsp;<a href="http://chengdu.homelink.com.cn" target="_blank" onclick="setCookie('site','chengdu');">成都</a>&nbsp;&nbsp;<a href="http://qingdao.homelink.com.cn" target="_blank" onclick="setCookie('site','qingdao');">青岛</a></div>
+      北京<a onmouseout="HiddenDivCity();" onmouseover="ShowDivCity();" href="javascript:void(0);" class="wu">&nbsp;&nbsp;</a></div>
+    <a href="/"><img src="/frontpage/media/upload/header_logo.png" /></a></dl>
+  <form method="post" id="search_frm" onsubmit="return zouzhuang_url_frm();">
+
+    <input type="submit" style="display:none" />
+    <ol>
+      <li>
+        <div class="all_options">
+          <p><span id="t">二手房</span><a onmouseout="HiddenDivCity2();" onmouseover="ShowDivCity2();" href="javascript:void(0);"><img src="/frontpage/media/upload/all_options_jt.gif" width="26" height="26" /></a></p>
+          <ul id="citylist2" class="all_optionscon" style="display:none" onmouseover="ShowDivCity2();"  onmouseout="HiddenDivCity2();">
+	    <li id="tt" class="bg" onclick="zouzhuang_url('esf');">二手房</li>
+	    <li onclick="zouzhuang_url('esf');">二手房</li>
+
+            <li onclick="zouzhuang_url('zf');">租房</li>
+          </ul>
+        </div>
+      </li>
+      <li class="ascension">
+        <input name="q" id="keyw" type="text" value="请输入房源特征,地点或小区名..." class="header_logosr" autocomplete="off"/>
+      </li>
+      <li class="juli"><div class="shuan_xian"><a onclick="add_key()" href="/ershoufang/" id="search" class="shuan_input"></a></div></li>
+
+    </ol>
+  </form>
+  <p>热门搜索：<a href="http://beijing.homelink.com.cn/ershoufang/d1b61/" class="gray">朝青</a>&nbsp;<a href="http://beijing.homelink.com.cn/ershoufang/d9b244/" class="gray">天通苑</a>&nbsp;<a href="http://beijing.homelink.com.cn/ershoufang/d8b230/" class="gray">鲁谷</a>&nbsp;</p>
+</div>
+<div class="header_nav">
+	<!--<div class="header_news"><img src="/frontpage/media/upload/news.gif" /></div>-->
+	<ul id="daohangtiao">
+		<li class="navgreenbg2" id="mynav0"><a href="/">首页</a></li>
+
+		<li class="navgreenbg3" id="mynav1"><a href="/ershoufang/">二手房</a></li>
+		<li class="navgreenbg2" id="mynav2"><a href="/zufang">租房</a></li>
+		<li class="navgreenbg4" id="mynav3"><a href="/ditu/">地图找房</a></li>
+		<li class="navgreenbg4" id="mynav4"><a href="/xiaoqu/">小区房价</a></li>
+		<li class="navgreenbg4" id="mynav5"><a href="/loan/">房屋贷款</a></li>
+		<li class="navgreenbg3" id="mynav6"><a href="/jingjiren/">经纪人</a></li>
+
+		<li class="navgreenbg2" id="mynav7"><a href="/ask/">问答</a></li>
+	</ul>
+  <dl class="horn">
+    <div class="trends_brief" id="dy_scroll_top">
+      <ol>
+        <li><a href="/c-yuanyangshanshuierqi1447/" target="_blank">[石景山区]远洋山水</a>均价<span style="color:red;">31321</span>元/平米</li><li><a href="/c-beijingxintiandi1799/" target="_blank">[朝阳区]北京新天地</a>均价<span style="color:red;">22161</span>元/平米</li><li><a href="/c-tiantongyuanxiqusanqu604/" target="_blank">[昌平区]天通苑西三区</a>均价<span style="color:red;">15474</span>元/平米</li><li><a href="/c-houxiandaicheng458/" target="_blank">[朝阳区]后现代城</a>均价<span style="color:red;">29845</span>元/平米</li><li><a href="/c-tiantongyuandongquyiqu590/" target="_blank">[昌平区]天通苑东一区</a>均价<span style="color:red;">15736</span>元/平米</li><li><a href="/c-dongyashangbeizhongxin70/" target="_blank">[昌平区]东亚上北中心</a>均价<span style="color:red;">19832</span>元/平米</li><li><a href="/c-langqinyuan894/" target="_blank">[宣武区]朗琴园</a>均价<span style="color:red;">36061</span>元/平米</li><li><a href="/c-rongfeng20081327/" target="_blank">[宣武区]荣丰2008</a>均价<span style="color:red;">34223</span>元/平米</li><li><a href="/c-yuanjianmingyuan1452/" target="_blank">[宣武区]远见名苑</a>均价<span style="color:red;">31260</span>元/平米</li><li><a href="/c-wangjingxincheng895/" target="_blank">[朝阳区]望京新城</a>均价<span style="color:red;">24465</span>元/平米</li><li><a href="/c-tiantongyuanbeiquerqu596/" target="_blank">[昌平区]天通苑北二区</a>均价<span style="color:red;">16451</span>元/平米</li><li><a href="/c-shangyuanjunting1689/" target="_blank">[朝阳区]上元君庭</a>均价<span style="color:red;">31381</span>元/平米</li>      </ol>
+
+      <script type="text/javascript">
+	    function AutoScroll(obj){
+		$(obj).find("ol:first").animate({
+			marginbottom:"-25px"
+		},300,function(){
+			$(this).css({marginTop:"0px"}).find("li:first").appendTo(this);
+		});
+	    }
+		$(document).ready(function(){
+		setInterval('AutoScroll("#dy_scroll_top")',2000)
+		});
+	
+      </script>
+    </div>
+  </dl>
+</div>
+<!--=header end=-->
+<script type="text/javascript" src="/frontpage/js/header.js"></script>
+<!--== list_nav ==-->
+<div class="floatlayer" style="z-index:78889;">
+	<div class="fenxasang" id="kefu" onclick="hidden4();">客服</div>
+	<div class="liuyan">留言</div>
+
+	<div class="fenxiantg" onclick="hidden1('');"><a href="javascript:;">关注</a></div>
+		<div id='issue_1' class="guanzhu1" name='issue_1' style="display:none; z-index:78889;">
+			<dl>
+				<dd class="font14 bolder">您关注的信息</dd>
+				<dd class="cha"><a onclick="hidsn('issue_1');"><img src="/themes/2010a/template/ershoufang/media/upload/home_map_c.gif" /></a></dd>
+			</dl>
+						<p><span class="bolder">您最近还没关注过小区</span></p>
+
+					</div>
+		<!--=关注完毕=-->
+	<div onclick="hidden2();" class="lishi"><a href="#" class="lishi">历史</a></div>
+		<div id='issue_2' class="lishi1" name='issue_2' style="display:none;">
+		   <dl>
+				<dd class="font14 bolder">您的浏览记录</dd>
+				<dd class="cha"><a onclick="hidsn('issue_2');"><img src="/themes/2010a/template/ershoufang/media/upload/home_map_c.gif" /></a></dd>
+			</dl>
+
+			<p><span class="bolder">您最近浏览过的小区：</span></p>
+						<ul>
+				<li class="gname"><a href="/c-yuanyangshanshuierqi1447/" target="_blank" class="tan_blue">远洋山水</a></li>
+				<li class="amay"><span>31321.92元/平米</span></li>
+			</ul>
+						<ul>
+				<li class="gname"><a href="/c-beijingxintiandi1799/" target="_blank" class="tan_blue">北京新天地</a></li>
+
+				<li class="amay"><span>22161.8元/平米</span></li>
+			</ul>
+						<ul>
+				<li class="gname"><a href="/c-tiantongyuanxiqusanqu604/" target="_blank" class="tan_blue">天通苑西三区</a></li>
+				<li class="amay"><span>15474.8元/平米</span></li>
+			</ul>
+						<ul>
+
+				<li class="gname"><a href="/c-houxiandaicheng458/" target="_blank" class="tan_blue">后现代城</a></li>
+				<li class="amay"><span>29845.23元/平米</span></li>
+			</ul>
+						<ul>
+				<li class="gname"><a href="/c-tiantongyuandongquyiqu590/" target="_blank" class="tan_blue">天通苑东一区</a></li>
+				<li class="amay"><span>15736.33元/平米</span></li>
+			</ul>
+
+						<ul>
+				<li class="gname"><a href="/c-dongyashangbeizhongxin70/" target="_blank" class="tan_blue">东亚上北中心</a></li>
+				<li class="amay"><span>19832.65元/平米</span></li>
+			</ul>
+						<ul>
+				<li class="gname"><a href="/c-langqinyuan894/" target="_blank" class="tan_blue">朗琴园</a></li>
+				<li class="amay"><span>36061.92元/平米</span></li>
+
+			</ul>
+						<ul>
+				<li class="gname"><a href="/c-yuanjianmingyuan1452/" target="_blank" class="tan_blue">远见名苑</a></li>
+				<li class="amay"><span>31260.93元/平米</span></li>
+			</ul>
+						<ul>
+				<li class="gname"><a href="/c-rongfeng20081327/" target="_blank" class="tan_blue">荣丰2008</a></li>
+
+				<li class="amay"><span>34223.15元/平米</span></li>
+			</ul>
+						<ul>
+				<li class="gname"><a href="/c-wangjingxincheng895/" target="_blank" class="tan_blue">望京新城</a></li>
+				<li class="amay"><span>24465.76元/平米</span></li>
+			</ul>
+					</div>
+
+		<!--=历史完毕=-->
+	<div onclick="hidden3();" class="fenxiang"><a href="#" class="fenxiang">分享</a></div>
+		<div id='issue_3' class="fenxiang1" name='issue_3' style="display:none;">
+		   <dl>
+				<dd>
+				<!-- JiaThis Button BEGIN -->
+				<div id="ckepop">
+					<a class="jiathis_button_tsina"></a>
+
+					<a class="jiathis_button_kaixin001"></a>
+					<a class="jiathis_button_tqq"></a>
+					<a class="jiathis_button_qzone"></a>
+					<a class="jiathis_button_renren"></a>
+					<a class="jiathis_button_msn"></a>
+					<a class="jiathis_button_t163"></a>
+				</div>
+				<script type="text/javascript" src="http://v1.jiathis.com/code/jia.js" charset="utf-8"></script>
+
+				<!-- JiaThis Button END -->
+				</dd>
+				<dd class="cha"><a onclick="hidsn('issue_3');"><img src="/themes/2010a/template/ershoufang/media/upload/home_map_c.gif" /></a>
+				</dd>
+			</dl>
+		</div>
+		<!--=分享完毕=-->
+</div>
+<!--== list_nav ==-->
+<div class="list_nav"><a href="/">北京链家</a>&nbsp;&gt;&nbsp;<a href="/xiaoqu/">小区找房</a>&nbsp;&gt;&nbsp;<a href="/c-longhuxiangtimanbusiqu2659/">龙湖香醍漫步四区</a></div>
+
+<!--== 小区详情页 ==-->
+<div class="fdistrict">
+	
+    <!--==district left==-->
+    <div class="district_left">
+    	<!--=switching=-->
+        <div class="district_qiehimg"><img src="/themes/2010a/template/xiangqing/media/upload/district_qiehuan.gif" width="754" height="5" /></div>
+    	<div class="district_qiehuan">
+            <div class="suite_sold_title clearfix">
+                <h1 class="black font16 bolder">龙湖香醍漫步四区二手房</h1>
+
+                <!--<ol><label><a href="#" class="blue_line">上一个小区</a></label>&nbsp;<label class="you"><a href="#" class="blue_line">下一个小区</a></label></ol>-->
+            </div>
+            <div class="clear"></div>
+            <div class="district_qhimnav">
+            	<ul>
+                	<li><a href="/c-longhuxiangtimanbusiqu2659/" class="district_bgray">小区概况</a></li>
+                    <li class="bg"><a href="/c-longhuxiangtimanbusiqu2659/esf/" class="district_blv">二手房<span>4套</span></a></li>
+
+                    <li><a href="/c-longhuxiangtimanbusiqu2659/pt/" class="district_bgray">周边配套</a></li>
+                    <li><a href="/c-longhuxiangtimanbusiqu2659/xq/" class="district_bgray">小区详情</a></li>
+                      <li><a href="/c-longhuxiangtimanbusiqu2659/zf/" class="district_bgray">租房<em class="sfont">0套</em></a></li>
+              </ul>
+            </div>
+
+<input type="hidden" id="area_value" value="" />
+	<input type="hidden" id="subarea_value" value="" />
+
+	<input type="hidden" id="zujin_value" value="" />
+	<input type="hidden" id="eprice_value" value="" />
+	<input type="hidden" id="mianji_value" value="" />
+	<input type="hidden" id="tingshi_value" value="" />
+	<input type="hidden" id="hometype_value" value="" />
+	<input type="hidden" id="fangling_value" value="" />
+	<input type="hidden" id="louceng_value" value="" />
+
+	<input type="hidden" id="type_value" value="" />
+
+	<input type="hidden" id="sort_value" value="" />
+
+	<input type="hidden" id="srctype_value" value="" />
+
+	<input type="hidden" id="ditie_value" value="" />
+	<input type="hidden" id="ditiesite_value" value="" />
+
+	<input type="hidden" id="huanxian_value" value="" />
+	<input type="hidden" id="subhuanxian_value" value="" />
+
+	<input type="hidden" id="st_value" value="" />
+
+	<input type="hidden" id="rs_value" value="" />
+
+	<input type="hidden" id="pg_value" value="" />
+
+	<input type="hidden" id="ptype_value" value="esf" />
+
+	<input type="hidden" id="current_value" value="c-longhuxiangtimanbusiqu2659" />
+
+        <div class="district_allsuitea">
+
+            <ul>
+            	<li>户型：
+					<a href="/c-longhuxiangtimanbusiqu2659/esf//" id="tingshi"><span>不限</span></a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/l1/" id="tingshi1">一室</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/l2/" id="tingshi2">二室</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/l3/" id="tingshi3">三室</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/l4/" id="tingshi4">四室</a>
+
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/l5/" id="tingshi5">五室</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/l6/" id="tingshi6">五室以上</a>
+									</li>
+                <li>价格：
+					<a href="/c-longhuxiangtimanbusiqu2659/esf//"><span>不限</span></a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p1/" id="eprice1">80万以下</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p2/" id="eprice2">80-100万</a>
+
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p3/" id="eprice3">100-120万</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p4/" id="eprice4">120-150万</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p5/" id="eprice5">150-200万</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p6/" id="eprice6">200-250万</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p7/" id="eprice7">250-300万</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p8/" id="eprice8">300-500万</a>
+
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p9/" id="eprice9">500-1000万</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/p10/" id="eprice10">1000万以上</a>
+									</li>
+                <li>面积：
+					<a href="/c-longhuxiangtimanbusiqu2659/esf//"><span>不限</span></a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a1/" id="mianji1">50平以下</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a2/" id="mianji2">50-70平</a>
+
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a3/" id="mianji3">70-90平</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a4/" id="mianji4">90-110平</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a5/" id="mianji5">110-130平</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a6/" id="mianji6">130-150平</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a7/" id="mianji7">150-200平</a>
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a8/" id="mianji8">200-300平</a>
+
+										<a href="/c-longhuxiangtimanbusiqu2659/esf/a9/" id="mianji9">300平以上</a>
+									</li>
+            </ul>
+        </div>
+        
+        <!--=all results=-->
+        	<div class="district_sorto">
+            	<ul>共找到<span>4</span>套房源</ul>
+
+                <ol><li class="a">排序：</li><li class="b">
+				<select name="" class="default_sort" onchange="zz_xiaoqu_xx('sort',this.value,1)">
+
+				<option selected="selected" value="">默认排序</option>
+				<option value="cbo9">按面积小到大</option>
+				<option value="cbo0">按面积大到小</option>
+				<option value="cpo9">按总价小到大</option>
+
+				<option value="cpo0">按总价大到小</option>
+
+				</select>
+
+				</li></ol>
+            </div>
+					            <div class="detailed_information" onmouseover="this.className='detailed_informationii'" onmouseout="this.className='detailed_information'">
+			<dl><a href="/ershoufang/ff80808134633dc001346a4fe2343899.shtml" target="_blank"><img src="http://image.homelink.com.cn//houseSource/2011/12/23/28/ff80808134633dc001346a51b82338dd.jpg" alt="龙湖香醍漫步四区5室3厅" /></a></dl>
+			<ul>
+
+				<li><strong class="font14"><span><a href="/ershoufang/ff80808134633dc001346a4fe2343899.shtml" target="_blank">顺义龙湖香醍溪岸超低价独栋真实在售</a></span></strong></li>
+				<li class="juli">
+293平米&nbsp;&nbsp;16723.55元/平米&nbsp;&nbsp;5室3厅<br>
+&nbsp;&nbsp;东西南北&nbsp;&nbsp;0年房龄</li>
+<li>肖波&nbsp;<label>400-010-1111转5127</label></li>
+			</ul>
+
+ 					<ol><img id="picff80808134633dc001346a4fe2343899" src="/themes/2010a/template/xiangqing/media/upload/attention_off.png" />&nbsp;<a class="gray_eight" id="gzff80808134633dc001346a4fe2343899" href="javascript:;" onclick="guanzhu('ff80808134633dc001346a4fe2343899',2,'',1)">关注</a></ol>
+
+					<p><span>490万</span></p>
+			</div>
+            <div class="detailed_inforline"></div>
+			            <div class="detailed_information" onmouseover="this.className='detailed_informationii'" onmouseout="this.className='detailed_information'">
+			<dl><a href="/ershoufang/ff80808133ee5b080133f87345cc5204.shtml" target="_blank"><img src="http://image.homelink.com.cn//houseSource/2011/12/1/18/ff80808133ee5b080133f887df4555a4.jpg" alt="龙湖香醍漫步四区3室2厅" /></a></dl>
+			<ul>
+
+				<li><strong class="font14"><span><a href="/ershoufang/ff80808133ee5b080133f87345cc5204.shtml" target="_blank">龙湖香醍漫步托斯卡纳风格业主急售中急急急</a></span></strong></li>
+				<li class="juli">
+131平米&nbsp;&nbsp;13358.78元/平米&nbsp;&nbsp;3室2厅<br>
+高楼层/8层&nbsp;&nbsp;南北&nbsp;&nbsp;-1年房龄</li>
+<li>梁杰锋&nbsp;<label>400-010-1111转5600</label></li>
+			</ul>
+
+ 					<ol><img id="picff80808133ee5b080133f87345cc5204" src="/themes/2010a/template/xiangqing/media/upload/attention_off.png" />&nbsp;<a class="gray_eight" id="gzff80808133ee5b080133f87345cc5204" href="javascript:;" onclick="guanzhu('ff80808133ee5b080133f87345cc5204',2,'',1)">关注</a></ol>
+
+					<p><span>175万</span></p>
+			</div>
+            <div class="detailed_inforline"></div>
+			            <div class="detailed_information" onmouseover="this.className='detailed_informationii'" onmouseout="this.className='detailed_information'">
+			<dl><a href="/ershoufang/ff80808133fd8009013408743c6f500f.shtml" target="_blank"><img src="http://image.homelink.com.cn//houseSource/2011/12/4/25/ff80808133fd8009013408772f2f508f.jpg" alt="龙湖香醍漫步四区3室2厅" /></a></dl>
+			<ul>
+
+				<li><strong class="font14"><span><a href="/ershoufang/ff80808133fd8009013408743c6f500f.shtml" target="_blank">龙湖香醍漫步三居田园风光紧急出售急</a></span></strong></li>
+				<li class="juli">
+117平米&nbsp;&nbsp;13675.21元/平米&nbsp;&nbsp;3室2厅<br>
+高楼层/9层&nbsp;&nbsp;南北&nbsp;&nbsp;0年房龄</li>
+<li>梁杰锋&nbsp;<label>400-010-1111转5600</label></li>
+			</ul>
+
+ 					<ol><img id="picff80808133fd8009013408743c6f500f" src="/themes/2010a/template/xiangqing/media/upload/attention_off.png" />&nbsp;<a class="gray_eight" id="gzff80808133fd8009013408743c6f500f" href="javascript:;" onclick="guanzhu('ff80808133fd8009013408743c6f500f',2,'',1)">关注</a></ol>
+
+					<p><span>160万</span></p>
+			</div>
+            <div class="detailed_inforline"></div>
+			            <div class="detailed_information" onmouseover="this.className='detailed_informationii'" onmouseout="this.className='detailed_information'">
+			<dl><a href="/ershoufang/ff808081333a99dd0133441f6ee73f14.shtml" target="_blank"><img src="http://image.homelink.com.cn//houseSource/2011/10/27/24/ff808081333a99dd0133442069113f6c.jpg" alt="龙湖香醍漫步四区3室1厅" /></a></dl>
+			<ul>
+
+				<li><strong class="font14"><span><a href="/ershoufang/ff808081333a99dd0133441f6ee73f14.shtml" target="_blank">中欧结合，环境优美，金牌物业，绝版三居</a></span></strong></li>
+				<li class="juli">
+128平米&nbsp;&nbsp;14062.5元/平米&nbsp;&nbsp;3室1厅<br>
+高楼层/9层&nbsp;&nbsp;南北&nbsp;&nbsp;3年房龄</li>
+<li>曹和建&nbsp;<label>400-010-1111转5341</label></li>
+			</ul>
+
+ 					<ol><img id="picff808081333a99dd0133441f6ee73f14" src="/themes/2010a/template/xiangqing/media/upload/attention_off.png" />&nbsp;<a class="gray_eight" id="gzff808081333a99dd0133441f6ee73f14" href="javascript:;" onclick="guanzhu('ff808081333a99dd0133441f6ee73f14',2,'',1)">关注</a></ol>
+
+					<p><span>180万</span></p>
+			</div>
+            <div class="detailed_inforline"></div>
+				 
+		  <div class="clear"></div>
+          </div>          
+            <!--=分页=-->
+           
+            <div class="paging">
+
+                <p>共找到<span class="bolder red">4</span>套房源<p>
+                <ol><a href="#" class="gray_eight">返回顶部</a></ol>
+                <ul>
+                    <div class="fanye">
+  <a class='gray_eight' id="pg1" href='/c-longhuxiangtimanbusiqu2659/esf/pg1/'><span>首页</span></a><span class='nolink prexpage'>&nbsp;&nbsp;上一页</span><ul><span class='currentxq'>1</span></ul><span class='nolink prexpage'>&nbsp;&nbsp;下一页</span><a class='gray_eight youf' id="pg1" href='/c-longhuxiangtimanbusiqu2659/esf/pg1/' /><span>尾页</span></a>
+
+                    </div>
+                </ul>
+            </div>
+
+    </div>
+
+    <!--==district right==-->
+    <div class="district_right">
+
+        <div><img src="/themes/2010a/template/xiangqing/media/upload/district_right1.gif" width="193" height="52" alt="" /></div>
+
+    	        <div class="district_rad">
+		<a href="http://beijing.homelink.com.cn/zhuanti/new/" target="_blank"><img src="/images/bds/1311487413.jpg" width="193" height="209"/></a>
+			<img src="/images/bds/1320917629.jpg" width="193" height="61"/>
+			<a href="http://beijing.homelink.com.cn/zhuanti/syxc/index.html" target="_blank"><img src="/images/bds/1320917696.jpg" width="193" height="61"/></a>
+			<a href="http://beijing.homelink.com.cn/zhuanti/dcwj/" target="_blank"><img src="/images/bds/1316079017.jpg" width="193" height="59"/></a>
+		</div>
+        
+	</div>
+    
+</div>
+<div class="clear"></div>
+
+<!--==footer==-->
+<div class="uoonline">链家在线--龙湖香醍漫步四区二手房频道，为您提供最新、最真实的北京小区信息，您可以了解到北京小区房价，北京楼盘户型图，是中国最专业的北京小区信息网！</div>
+<div class="all_nanvv clearfix">
+	<div class="related_xinxi ">
+		<p class="bolder">二手房相关信息：</p>
+		<ul>
+				<a href="http://beijing.homelink.com.cn/ditu/" target="_blank" title="北京地图找房">北京地图找房</a>
+				<a href="http://beijing.homelink.com.cn/zufang/" target="_blank" title="北京租房">北京租房</a>
+
+				<a href="http://beijing.homelink.com.cn/ershoufang/" target="_blank" title="北京二手房">北京二手房</a>
+				
+		</ul>
+	</div>
+	<div class="related_xinxi ">
+		<p class="bolder">热点区域小区：</p>
+		<ul>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d12/" target="_blank" title="顺义小区">顺义小区</a>
+
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d11/" target="_blank" title="大兴小区">大兴小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d10/" target="_blank" title="通州小区">通州小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d9/" target="_blank" title="昌平小区">昌平小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d8/" target="_blank" title="石景山小区">石景山小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d7/" target="_blank" title="宣武小区">宣武小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d5/" target="_blank" title="西城小区">西城小区</a>
+
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d4/" target="_blank" title="东城小区">东城小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d3/" target="_blank" title="丰台小区">丰台小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d2/" target="_blank" title="海淀小区">海淀小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/d1/" target="_blank" title="朝阳小区">朝阳小区</a>
+				</ul>
+	</div>
+	<div class="related_xinxi ">
+
+		<p class="bolder">地铁沿线小区：</p>
+		<ul>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/ditie/li10/" target="_blank" title="13号线沿线小区">13号线沿线小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/ditie/li9/" target="_blank" title="10号线沿线小区">10号线沿线小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/ditie/li7/" target="_blank" title="8号线沿线小区">8号线沿线小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/ditie/li4/" target="_blank" title="5号线沿线小区">5号线沿线小区</a>
+
+				<a href="http://beijing.homelink.com.cn/xiaoqu/ditie/li3/" target="_blank" title="4号线沿线小区">4号线沿线小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/ditie/li2/" target="_blank" title="2号线沿线小区">2号线沿线小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/ditie/li1/" target="_blank" title="1号线沿线小区">1号线沿线小区</a>
+				
+		</ul>
+	</div>
+	<div class="related_xinxi ">
+		<p class="bolder">环线周边小区：</p>
+
+		<ul>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/huanxian/cr6/" target="_blank" title="六环外热销小区">六环外热销小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/huanxian/cr5/" target="_blank" title="五环至六环热销小区">五环至六环热销小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/huanxian/cr4/" target="_blank" title="四环至五环热销小区">四环至五环热销小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/huanxian/cr3/" target="_blank" title="三环至四环热销小区">三环至四环热销小区</a>
+				<a href="http://beijing.homelink.com.cn/xiaoqu/huanxian/cr2/" target="_blank" title="二环至三环热销小区">二环至三环热销小区</a>
+
+				<a href="http://beijing.homelink.com.cn/xiaoqu/huanxian/cr1/" target="_blank" title="二环内热销小区">二环内热销小区</a>
+				</ul>
+	</div>
+	<div class="related_xinxi ">
+		<p class="bolder">合　作　伙　伴：</p>
+		<ul>
+				<a href="http://nanjing.homelink.com.cn/" target="_blank" title="南京二手房">南京二手房</a>
+
+				<a href="http://tianjin.homelink.com.cn/" target="_blank" title="天津二手房">天津二手房</a>
+				<a href="http://beijing.homelink.com.cn/c-fulichengaqu2504/" target="_blank" title="富力城">富力城</a>
+				<a href="http://beijing.homelink.com.cn/c-chengshizhiguang3148/" target="_blank" title="城市之光">城市之光</a>
+				<a href="http://beijing.homelink.com.cn/c-xinghewan2073/" target="_blank" title="星河湾">星河湾</a>
+				<a href="http://beijing.homelink.com.cn/c-xingfujiayuan705/" target="_blank" title="幸福家园">幸福家园</a>
+				<a href="http://beijing.homelink.com.cn/zhuanti/runfenglingshang.shtml" target="_blank" title="通州润枫领尚">通州润枫领尚</a>
+
+				<a href="http://dalian.homelink.com.cn/" target="_blank" title="大连二手房">大连二手房</a>
+				</ul>
+	</div>
+</div><div class="about_homelink">
+<a href="/about/about_homelink.shtml" target="_blank" class="footer_gary" rel=nofollow>关于链家</a><label>|</label><a href="/about/about_zongbu.shtml" target="_blank" class="footer_gary" rel=nofollow>联系我们</a><label>|</label><a href="/about/about_operation.shtml" target="_blank" class="footer_gary" rel=nofollow>加入我们</a><label>|</label><a href="/sitemap/" target="_blank" class="footer_gary">网站地图</a><label>|</label><a href="/link/" target="_blank" class="footer_gary">友情链接</a><!--<label>|</label><a href="javascript:viod(0);" class="footer_y" onclick="opennewpage(403,179,'/themes/2010a/template/inc/notice.html');">经纪人登录</a>-->
+
+<p><a href="http://www.homelink.com.cn">二手房</a>
+<a href="/xiaoqu/A/" target="_blank">A</a>
+<a href="/xiaoqu/B/" target="_blank">B</a>
+<a href="/xiaoqu/C/" target="_blank">C</a>
+<a href="/xiaoqu/D/" target="_blank">D</a>
+<a href="/xiaoqu/E/" target="_blank">E</a>
+<a href="/xiaoqu/F/" target="_blank">F</a>
+<a href="/xiaoqu/G/" target="_blank">G</a>
+<a href="/xiaoqu/H/" target="_blank">H</a>
+
+<a href="/xiaoqu/I/" target="_blank">I</a>
+<a href="/xiaoqu/J/" target="_blank">J</a>
+<a href="/xiaoqu/K/" target="_blank">K</a>
+<a href="/xiaoqu/L/" target="_blank">L</a>
+<a href="/xiaoqu/M/" target="_blank">M</a>
+<a href="/xiaoqu/N/" target="_blank">N</a>
+<a href="/xiaoqu/O/" target="_blank">O</a>
+<a href="/xiaoqu/P/" target="_blank">P</a>
+<a href="/xiaoqu/Q/" target="_blank">Q</a>
+
+<a href="/xiaoqu/R/" target="_blank">R</a>
+<a href="/xiaoqu/S/" target="_blank">S</a>
+<a href="/xiaoqu/T/" target="_blank">T</a>
+<a href="/xiaoqu/U/" target="_blank">U</a>
+<a href="/xiaoqu/V/" target="_blank">V</a>
+<a href="/xiaoqu/W/" target="_blank">W</a>
+<a href="/xiaoqu/X/" target="_blank">X</a>
+<a href="/xiaoqu/Y/" target="_blank">Y</a>
+<a href="/xiaoqu/Z/" target="_blank">Z</a>
+
+</p>
+北京链家房地产经纪有限公司/ 网络经营许可证&nbsp;京ICP备11024601号-1<br>
+Copyright<label class="efont none">&copy;</label>2011&nbsp;北京链家房地产经纪有限公司保留全部权利
+<script>
+var is_index = '';
+if(is_index != '1' ){$('#indexpic').hide();}
+$('.guanzhu > a').click(function(){
+  _gaq.push(['_trackEvent', 'sidebar', 'click', 'focus_1']);
+});
+$('.lishi > a').click(function(){
+  _gaq.push(['_trackEvent', 'sidebar', 'click', 'history']);
+});
+$('.fenxiang > a').click(function(){
+  _gaq.push(['_trackEvent', 'sidebar', 'click', 'share']);
+});
+$('.fenxasang > a').click(function(){
+  _gaq.push(['_trackEvent', 'sidebar', 'click', 'service']);
+});
+var kfsj = new Date();
+var day = kfsj.getDay();
+var hour = kfsj.getHours();
+if(day == 0 || day == 6){
+	if(hour < 9 || hour > 21 ){
+		$('#kefu').removeClass();
+		$('#kefu').addClass('fenxasangok');
+	}
+}
+else{
+	if(hour < 8 || hour > 21 ){
+		$('#kefu').removeClass();
+		$('#kefu').addClass('fenxasangok');
+	}
+}
+</script>
+</div>
+<script type="text/javascript" charset="utf-8" src="http://gate.looyu.com/32735/77012.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24113315-1']);
+  _gaq.push(['_addOrganic', 'soso', 'w']);
+  _gaq.push(['_addOrganic', 'yodao', 'q']);
+  _gaq.push(['_addOrganic', 'sogou', 'query']);
+  _gaq.push(['_setDomainName', '.homelink.com.cn']);
+  _gaq.push(['_setAllowHash', false]); 
+  _gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src='http://w.cnzz.com/c.php?id=30048593' language='JavaScript'></script>
+<!-- Google Code for &#25152;&#26377;&#35775;&#38382;&#29992;&#25143; Remarketing List -->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1057220153;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "a_FPCN-dogIQucyP-AM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1057220153/?label=a_FPCN-dogIQucyP-AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<div style="display:none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F023ae7ee49c070f6bdc1695ebecb6da9' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+</body>
+</html>

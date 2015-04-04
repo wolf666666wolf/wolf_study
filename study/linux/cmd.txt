@@ -1,0 +1,16 @@
+1.< Ctrl+f > 将屏幕向文件尾方向翻滚一整屏（即一页） 
+  < Ctrl+b > 将屏幕向文件首方向翻滚一整屏（即一页）
+2.< shift+g>大写 G, 到文本最后一行， < ctrl+g>显示总行数
+  < gg >跳到首行
+
+3. 命令行行 <:set number> 可以为文本显示行号
+   < :number>可以到达相应的行，比如  :1000 光标到达1000行
+
+4. < /pattern enter >，比如  /result 回车，从光标位置向下搜索result,并定位到第一个，n同一个方向搜索，N反方向搜索
+grep 'hello' *.xml //查找当前目录下xml文件中包含hello的行
+
+5. < Ctrl+a > 命令行首， < Ctrl+e >命令行尾
+
+6. KSH
+       自动补全 esc + \
+     上条命令 esc + k   下一条 esc + j

@@ -1,0 +1,6 @@
+[framework] 2011-05-23 19:07:04,933 - com.study.open.log.LogTest -0    [main] DEBUG com.study.open.log.LogTest  - ##########DEBUG
+ [framework] 2011-05-23 19:07:04,933 - com.study.open.log.LogTest -0    [main] INFO  com.study.open.log.LogTest  - ##########INFO
+ [framework] 2011-05-23 19:07:04,933 - com.study.open.log.LogTest -0    [main] WARN  com.study.open.log.LogTest  - ##########WARN
+ [framework] 2011-05-23 19:07:04,933 - com.study.open.log.LogTest -0    [main] ERROR com.study.open.log.LogTest  - ##########ERROR
+ [framework] 2011-05-23 19:07:04,964 - com.study.open.log.LogTest -31   [main] FATAL com.study.open.log.LogTest  - ##########FATAL
+ 

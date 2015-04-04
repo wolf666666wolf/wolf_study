@@ -1,0 +1,168 @@
+java decompile -- http://java.decompiler.free.fr/jd-eclipse/update/
+maven2 －         http://m2eclipse.sonatype.org/update/ 
+svn               http://subclipse.tigris.org/update_1.6.x
+JOBSS             http://download.jboss.org/jbosstools/updates/nightly/trunk/ 
+propedit	  http://propedit.sourceforge.jp/eclipse/updates/
+run-jetty_run     http://run-jetty-run.googlecode.com/svn/trunk/updatesite
+
+1 Eclipse下载
+
+	EMF,GEF - Graphical Editor Framework,UML2,VE - Visual Editor都在这里下载
+
+	http://www.eclipse.org/downloads/index.php
+
+2 lomboz J2EE插件,开发JSP,EJB
+
+	http://forge.objectweb.org/projects/lomboz
+
+3 MyEclipse J2EE开发插件，支持SERVLET/JSP/EJB/数据库操纵等
+
+	http://www.myeclipseide.com
+
+4 Properties Editor 编辑java的属性文件，并可以自动存盘为Unicode格式
+
+	http://propedit.sourceforge.jp/index_en.html
+
+5 Colorer Take 为上百种类型的文件按语法着色
+
+	http://colorer.sourceforge.net/
+
+6 XMLBuddy 编辑xml文件
+
+	http://www.xmlbuddy.com
+
+7 Code Folding 加入多种代码折叠功能（比eclipse自带的更多）
+
+	http://www.coffee-bytes.com/servlet/PlatformSupport
+
+8 Easy Explorer 从eclipse中访问选定文件、目录所在的文件夹
+
+	http://easystruts.sourceforge.net/
+
+9 Fat Jar 打包插件，可以方便的完成各种打包任务，可以包含外部的包等
+
+	http://fjep.sourceforge.net/
+
+10 RegEx Test 测试正则表达式
+
+	http://brosinski.com/stephan/archives/000028.php
+
+11 JasperAssistant 报表插件(要钱的哦～)
+
+	http://www.jasperassistant.com/
+
+12 Jigloo GUI Builder JAVA的GUI编辑插件
+
+	http://cloudgarden.com/jigloo/
+
+13 Profiler 性能跟踪、测量工具，能跟踪、测量B/S程序
+
+	http://sourceforge.net/projects/eclipsecolorer/
+
+14 AdvanQas 提供对if/else等条件语句的提示和快捷帮助(自动更改结构等)
+
+	http://eclipsecolorer.sourceforge.net/advanqas/index.html
+
+15 Log4E Log4j插件，提供各种和Log4j相关的任务，如为方法、类添加一个logger等
+
+	http://log4e.jayefem.de/index.php/Main_Page
+
+16 VSSPlugin VSS插件
+
+	http://sourceforge.net/projects/vssplugin
+
+17 Implementors 提供跳转到一个方法的实现类，而不是接口的功能（实用!）
+
+	http://eclipse-tools.sourceforge.net/implementors/
+
+18 Call Hierarchy 显示一个方法的调用层次（被哪些方法调，调了哪些方法）
+
+	http://eclipse-tools.sourceforge.net/call-hierarchy/index.html
+
+19 EclipseTidy 检查和格式化HTML/XML文件
+
+	http://eclipsetidy.sourceforge.net/
+
+20 Checkclipse 检查代码的风格、写法是否符合规范
+
+	http://www.mvmsoft.de/content/plugins/checkclipse/checkclipse.htm
+
+21 Hibernate Synchronizer Hibernate插件，自动映射等
+
+	http://www.binamics.com/hibernatesync/
+
+22 VeloEclipse Velocity插件
+
+	http://propsorter.sourceforge.net/
+
+23 EditorList 方便的列出所有打开的Editor
+
+	http://editorlist.sourceforge.net/
+
+24 MemoryManager 内存占用率的监视
+
+	http://cloudgarden.com/memorymanager/
+
+25 swt-designer java的GUI插件
+
+	http://www.swt-designer.com/
+
+26 TomcatPlugin 支持Tomcat插件
+
+	http://www.sysdeo.com/eclipse/tomcatPlugin.html
+
+27 XML Viewer
+
+	http://tabaquismo.freehosting.ne ... /xmlview/index.html
+
+28 quantum 数据库插件
+
+	http://quantum.sourceforge.net/
+
+29 Dbedit 数据库插件
+
+	http://sourceforge.net/projects/dbedit
+
+30 clay.core 可视化的数据库插件
+
+	http://www.azzurri.jp/en/software/index.jsp
+
+	http://www.azzurri.jp/eclipse/plugins
+
+31 hiberclipse hibernate插件
+
+	http://hiberclipse.sourceforge.net
+
+	http://www.binamics.com/hibernatesync
+
+32 struts-console Struts插件
+
+	http://www.jamesholmes.com/struts/console/
+
+33 easystruts Struts插件
+
+	http://easystruts.sourceforge.net
+
+34 veloedit Velocity插件
+
+	http://veloedit.sourceforge.net/
+
+35 jalopy 代码整理插件
+
+		http://jalopy.sourceforge.net/
+
+36 JDepend 包关系分析
+
+	http://andrei.gmxhome.de/jdepend4eclipse/links.html
+
+37 Spring IDE Spring插件
+
+	http://springide-eclip.sourceforge.net/updatesite/
+
+38 doclipse 可以产生xdoclet 的代码提示
+
+	http://beust.com/doclipse/
+
+39 SQLExplorer,在Eclipse 中连接各种数据库进行操作使用
+
+	http://dev2dev.bea.com.cn/bbs/th ... &threadID=31124

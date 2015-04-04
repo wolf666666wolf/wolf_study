@@ -1,0 +1,118 @@
+之前有一篇文章讲到如何使用jamon来监控请求以及方法得调用(原文地址见：[url]http://www.javaeye.com/post/354575 [/url])，本文属于其姊妹篇，使用jamon监控系统的sql调用及其调用效率。 
+
+需求： 
+1我们知道在使用hibernate得时候，我们可以打开show sql选项，可以直接查看sql语句调用的情况，那么当我们使用其他持久技术的时候我们也需要这个功能怎么办呢，没有关系，jamon能够帮我们做到。 
+
+2 很多时候，不同的程序员会写出不同的性能的sql，有时候可能会不小心或者因为不知道而写出性能很差的sql，我自己曾经就发生过这种事情，在500w条数据的表里使用了一个limit来分页，到后面，执行一条sql都需要几分钟，诸如此类的时候可能大家都有碰到过，如果能有监控sql性能的工具嵌在应用里该多好，当然有jamon就可以帮我们做到。 
+
+对于jamon来说，每一个query的执行之后的统计结果都会被保存下来，这些概要统计都以MonProxy-SQL开头。这些统计中包括查询执行的时间，有比如平均时间，执行总时间，最小执行时间，最大执行时间，这些东西难道不是我们正想要的吗。 
+
+那么让我们开始吧，我们知道，这些query执行的统计应该是在connection中被统计的，也就是说我们要代理一般的connection，而connection又是由datasource产生的，所以我们可以代理datasource，说干就干。 
+
+一个datasource接口中关于connection的方法只有两个： 
+Java代码 
+/**  
+   * <p>Attempts to establish a connection with the data source that  
+   * this <code>DataSource</code> object represents.  
+   *  
+   * @return  a connection to the data source  
+   * @exception SQLException if a database access error occurs  
+   */  
+  Connection getConnection() throws SQLException;   
+         
+  /**  
+   * <p>Attempts to establish a connection with the data source that  
+   * this <code>DataSource</code> object represents.  
+   *  
+   * @param username the database user on whose behalf the connection is   
+   *  being made  
+   * @param password the user's password  
+   * @return  a connection to the data source  
+   * @exception SQLException if a database access error occurs  
+   * @since 1.4  
+   */  
+  Connection getConnection(String username, String password)    
+    throws SQLException;  
+
+也就是说我们只要override这两个方法即可。 
+根据这个思路我写了以下代码： 
+Java代码 
+/**  
+ * @author ahuaxuan(aaron zhang)  
+ * @since 2008-2-25  
+ * @version $Id$  
+ */  
+public class MonitorDataSource implements DataSource {   
+    public DataSource realDataSource;   
+  
+    public void setRealDataSource(DataSource realDataSource) {   
+        this.realDataSource = realDataSource;   
+    }   
+  
+    public DataSource getRealDataSource() {   
+        return realDataSource;   
+    }   
+    public Connection getConnection() throws SQLException {   
+//表示由jamon来代理realDataSource返回的Connection   
+        return MonProxyFactory.monitor(realDataSource.getConnection());   
+    }   
+  
+    public Connection getConnection(String username, String password)   
+            throws SQLException {   
+//表示由jamon来代理realDataSource返回的Connection   
+  
+        return MonProxyFactory.monitor(realDataSource.getConnection(username,   
+                password));   
+    }   
+}  
+
+显然这个一个代理模式。接下来就是生成这个代理类,我是在spring中注册了这么一个类： 
+Java代码 
+<bean id="writeMonitorDataSource" class="org.ahuaxuan.MonitorDataSource" destroy-method="close">   
+        <property name="realDataSource" ref="writeDataSource"/>   
+    </bean>  
+
+
+writeMonitorDataSource 所依赖的writeDataSource就是我们真正配置的datasource，比如： 
+Java代码 
+<bean id="writeDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">   
+        <property name="driverClassName">   
+            <value>${jdbc.driverClassName}</value>   
+        </property>   
+        <property name="url">   
+            <value>${jdbc.url}</value>   
+        </property>   
+        <property name="username">   
+            <value>${jdbc.username}</value>   
+        </property>   
+        <property name="password">   
+            <value>${jdbc.password}</value>   
+        </property>   
+        <property name="maxActive">   
+            <value>${jdbc.maxActive}</value>   
+        </property>   
+        <property name="maxIdle">   
+            <value>${jdbc.maxIdle}</value>   
+        </property>   
+        <property name="maxWait">   
+            <value>${jdbc.maxWait}</value>   
+        </property>   
+</bean>  
+
+好了，那么在使用datasource的时候，我们应该用哪个呢，当然是writeMonitorDataSource这个里，我们可以把它注入给jdbcTemplate，或者sessionfactory，或者其他需要用到datasource的地方。 
+
+到这里，就一切准备完毕了，我们可以看看我们sql语句的执行效率了(这个页面的地址为sql.jsp)： 
+见图1 
+当然要我们的应用能够显示这个页面，我们需要把jamon的一组页面拷到我们的应用中，这一组页面包含在我提供下载的包中，最新的jamon版本是2.7。 
+
+我们可以看到id为153的那条sql语句执行了78ms，我要去看看这条sql语句是不是有点什么问题或者是否有优化的可能性。 
+
+当然，刚才说到每一条sql语句都是有统计平均时间，最大最小执行时间等等，没错，在另外一个页面jamonadmin.jsp上就包含这些内容 
+见图2 
+       
+
+上面的图片代表hits表示执行次数，avg表示sql执行的平均时间，后面的min和max表示sql执行的最小耗时和最大耗时。从这里我们能够更直观的看到我们每条sql语句执行的情况。很有用的一个功能。 
+
+而且在上面那两个页面上，我们还可以选择把sql执行的结果导出来，可以导成xml或excel格式。 
+
+总结：使用jamon来监控我们的sql语句我觉得很有使用意义，而且使用jamon对我们的应用来说完全是松耦合的，根本不需要更改我们的业务逻辑代码，完全是可插拔的，我们也可以开发时使用jamon，部署时拔掉jamon。有了它能够使一些程序员能够更多一点的关注自己所写的sql的效率，当然如果之前开发的时候没有使用jamon也没有关系，即使上线后也可以查看一下sql语句是否有问题，比如哪些sql语句执行得比较频繁，是否存在给其做缓存得可能性等等。总之使用jamon在应用程序中来监控我们得sql语句具有很强得实用意义，

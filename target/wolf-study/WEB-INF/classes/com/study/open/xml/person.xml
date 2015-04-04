@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons act1="a" act2="b">
+	<person perid="1001">
+	  <name>lhu</name>
+	  <age>89</age>
+	  <address>安徽淮北</address>
+	  <sex>男</sex>
+	</person>
+	<person perid="1002">
+	  <name>we</name>
+	  <age>56</age>
+	  <address>北京海淀</address>
+	  <sex>女</sex>
+	</person>
+	<info>
+		<grade>五年级三班</grade>
+		<school>北京4中</school>
+	</info>
+</persons> 

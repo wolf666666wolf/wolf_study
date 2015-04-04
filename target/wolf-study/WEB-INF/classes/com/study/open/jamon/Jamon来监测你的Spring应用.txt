@@ -1,0 +1,110 @@
+Jamon来监测你的Spring应用
+
+/** 
+*作者：张荣华(ahuaxuan) 
+*2007-8-15 
+*转载请注明出处及作者 
+*/ 
+
+前两天在看Spring内置的拦截器的时候，发现了一个之前没有注意的类：org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptor，好奇心促使我上网查了一下这个jamon。大概看了一下之后发现这个玩意还真挺好用的而且挺重要的，而且现在国内对它的介绍也很少，所以写了一篇文章和大家分享。 
+
+一，Jamon简介： 
+Jamon的全名是：Java Application Monitor。它是一个小巧的，免费的，高性能的，线程安全的性能监测工具。它可以用来测定系统的性能瓶颈，也可以用来监视用户和应用程序之间的交互情况。 Jamon主要是用来检测jee的应用程序。它最新的版本是2.1，可以用在1.4以上的jdk上。 
+
+二，将jamon导入到你的应用程序中去 
+首先下载jamon的开发包，见我的附件，同时你也可以去Sourceforge上自己下载。Sourceforge的下载地址为http://jamonapi.sourceforge.net。解压之后可以得到一个jar包和一个war包。jar包是自己会用到的，而war包是一个例子（不要小看这个例子，待会也要把它导入到项目中）。把war包之间丢到服务器上，访问：localhost:8080/jamon就可以看到这个例子了，这个例子是一个简单的性能监控系统。 
+
+接着把例子中的所有的包都导入到项目中，并把war包中的jsp和images还有css都考到项目中，比如新建一个目录叫monitor（它和WEB-INF是同级目录）。 
+
+三，正确配置自己的应用 
+我们在性能监测的时候最监测的就是页面的访问率和类中方法的访问率。所以在这一部分主要讲解一下如何监测自己的页面和类中方法的访问。 
+
+1，	检测自己的页面访问率 
+首先我们需要在web.xml中添加一个filter，这个filter就是用来判断哪些页面需要被监视的，如下所示： 
+Java代码  
+<filter>  
+        <filter-name>JAMonFilter</filter-name>  
+        <filter-class>com.easywebwork.filter.EasyPageMonFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>JAMonFilter</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping>  
+接下来我们看看这个filter的写法： 
+Java代码  
+/** 
+ * @author 张荣华（ahuaxuan） 
+ * 
+ * @since 2007-8-13 
+ */  
+public class PageMonFilter extends JAMonFilter{  
+  
+    private static final long serialVersionUID = 5746197114960908454L;  
+  
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws IOException, ServletException {  
+         Monitor allPages = MonitorFactory.start(new MonKeyImp("org.easywebwork.allPages",getURI(request),"ms."));  
+         //这里就是我们要监视的所有的页面的配置  
+         Monitor monitor = MonitorFactory.start(getURI(request));  
+         //这里就是我们要监视的某个页面的配置  
+         try {  
+          filterChain.doFilter(request, response);  
+         } finally {  
+          monitor.stop();  
+          allPages.stop();  
+         }  
+       }  
+  
+       protected String getURI(ServletRequest request) {  
+         if (request instanceof HttpServletRequest) {  
+           return ((HttpServletRequest) request).getRequestURI();  
+         }  else {  
+           return "Not an HttpServletRequest";  
+         }  
+       }  
+  
+       private FilterConfig filterConfig = null;  
+         
+}}  
+
+这个类看上去很简单，其实也挺简单的，就是得到uri，然后把它注册到MonitorFactory类中。这样只要我们去访问刚才创建的monitor目录下的jsp就可以看到性能监测页面了。 
+
+2，	 ，接下来我们看看在使用spring的情况下如何监测一个bean的方法调用。Spring也提供了对Jamon的支持(spring支持的东西还真多啊)，也就是文章开头提出的那个拦截器，为了给我们的bean加上拦截器，我们在spring的applicationcontext配置文件中加入如下语句： 
+Java代码  
+<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">  
+        <property name="beanNames">  
+            <list>  
+                <value>userService</value>                
+            </list>  
+        </property>  
+        <property name="interceptorNames">  
+            <list>  
+                <value>jamonInterceptor</value>  
+            </list>  
+        </property>  
+    </bean>  
+      
+    <bean id="jamonInterceptor" class="org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptor">  
+</bean>  
+
+上面这个是典型的spring的aop的配置，如果对spring的aop配置不了解的可以去看一下spring中文文档，当然如果不想了解的话即使直接把这段配置拷到自己的项目中也是可以直接使用的。 
+
+还有一个步骤就是在你的log4j.properties中加入这句代码： 
+Java代码  
+log4j.logger.org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptor = TRACE  
+
+如果没有这一行，那么这个拦截器是不会把方法调用的信息向MonitorFactory注册的。 
+
+只需要这些步骤，userservice中的方法在调用的时候就可以被拦截，然后将其注册到MonitorFactory中去了。 
+
+所有的配置完成之后我们来看一下效果吧: 
+http://www.iteye.com/topics/download/b2bac96e-6c18-4340-b7e0-f84c7bb6adca从这个图上我们可以看到，所有页面被访问的次数，UserService中的getAllUsers被调用的次数，最右边的是访问时间。这只是整个图的一部分，当然这个页面中也包括每一个页面被访问的次数和第一次访问的时间等等。下载附件运行，就可以看到所有的页面了。 
+
+三，总结 
+根据以上的步骤，我们就可以监测我们的程序了，应用程序中哪些页面被访问的多，哪些页面被访问的少，哪些方法被访问的多，哪些方法被访问的少，以及访问高峰期集中在什么时间等等，有了这些参数，我们更可以有针对性的对应用程序进行优化了，比如说某个页面访问比较频繁，我就可以用ehcache或oscache给这个页面做一个缓存。如果某个方法的访问比较频繁那就看看这个方法能否进一步优化，是需要异步，还是需要缓存，还是需要其他等等，总之有了jamon可以给我们带来更多的便捷，既可以让我们知道我们的客户的行为，也可以让我们知道我们开发的程序的“能力”。 
+
+其实本文提供的只是对页面和方法调用的监控，但是jamon可以提供更多功能，比如说sql语句的监控等等，这就需要我们共同去发掘了。 
+
+附件中包括了一个easywebwork的例子，我把jamon导入到这个例子工程中去，大家可以直接下载运行观看效果。Easywebwork是一个旨在减少webwork2.2.x系列的xml配置文件的项目， 
+如果对这个主题感兴趣请到 
+http://www.iteye.com/topic/91614 
+http://www.iteye.com/topic/93814 

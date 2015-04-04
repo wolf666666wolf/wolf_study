@@ -1,0 +1,116 @@
+1. sql区别
+   Mysql  select * from T_Emplyee order by fsalary desc limit 2,5 从第2行号开始取5条记录，因为行号为0,1,2..,所以是从第三行行开始的
+   MS sql select top 5 * from T_Emplyee order by fsalary desc
+          select top 5 * from T_Emplyee where id not in (select top 2 * 
+                                                         from T_Emplyee order by fsalary desc)
+          order by fsalary desc 
+   MS sql 2005 使用窗口函数(Oracle中也可以使用)
+          select * from(
+          		select ROW_NUMBER() over (order by fsalary desc) as rownum,Fnumber,Fname,Fsalary,Fage from F_emplyee 
+          )as a
+          wher a.rownum>=3 and a.rownum<=7
+                                                                         
+   Oracle select * from T_Emplyee where rownum<5 order by fslary desc
+          select * from T_Emplyee where rownum between 3 and 5 order  by fsalary desc (错误SQL，没有结果，必须借助ROW_NUMBER()函数)
+                    
+2  索引
+   2.1聚簇索引：索引顺序与物理表相同 ，比如字典的拼音查找 ，一个表只能有一个
+                非聚簇索引：索引顺序与物理表顺序不相同   ，比如字典的偏旁查找，一个表可以有多个
+                因为索引占用一定的空间并且会降低表insert,update,delete的速度，所以最好只在需要检索的列上应用索引
+   2.2数据查询分为两种方式：全表扫面和索引查找       
+               全表是一条一条查找，当数据量小时，很有用，但当数据量很大是效率太低
+               由于数据库有查询优化器，并不是创建了索引查询的时候一定会用，他会根据统计信息决定使用全表扫描还是用索引                        
+
+3  函数
+   COALESCE(exp1, exp2,exp3....) 如果exp1为null，就取exp2,如果为null,就取exp3,依次类推 
+   CASE
+        用法一  select (
+        	 case Flevel
+        	 when 1 then 'Vip客户'
+        	 when 2 then '高级客户'
+        	 when 3 then '普通客户'
+        	 else '客户类型错误'
+        	 end) as flevelName
+          from t_customer
+        用法二 select fweight, (
+             case fweight <40 then 'thin'
+             case fweight >50 then 'fat'
+             else 'ok'
+             end) as isnormal      	 
+         from t_person
+         
+4  表连接
+        内连接：查询与另一个订单类型相同的所有订单
+           select *
+           from T_order t1, T_order t2
+           where t1.FtypeId=t2.FtypeId
+             and t1.fnumber<t2.fnumber     
+        全外连接： full outer join
+5. 标量子查询：子查询的返回值只能一行，只能一列
+       检索每一种图书中出版年份最早的书籍名称，要求显示类型的名称，书的名称，出版年份
+       select T_Category.Fid, T_Book.FName, T_Book.FYearPublished
+         from T_Category
+         inner join T_Book on T_Category.Fid=T_Book.FCategoryId
+         where T_Book.FYearPublished=(
+         	select MIN(T_Book.FYearPublished)
+         	from T_Book
+         	where T_Book.FCategoryed=T_Category.Fid
+         )
+ 5 with子句：为了减少子查询执行的次数，定义别名
+        获取系统中雨tom年龄或工资相同的工作人员
+        select * from T_Person
+        where fage = (select fage from T_Person where fname='TOM')
+           or fsalary = (select fsalary from T_Person where fname='TOM')
+        转化为使用with子句
+        WITH person_tom as(
+        	select * from T_Person
+        	where fname='TOM'
+        )   
+        select * from T_Person
+        where fage = person_tom.fage
+           of fsalary = person_tom.fsalary 
+6 表复制：不加where条件可以复制数据
+     复制结构：(Oracle, Mysql)Create Table T_Person2        
+          as 
+          Select * from T_Person
+          where 1<>1    
+          (sql server) select * into T_Person2
+          from T_Person
+          where 1<>1
+7 7.1为sql编号
+     显示所有不为空的行，并显示行号
+  （用窗口函数）select ROW_NUMBER over (order by Fid) as rn, FNumber, FMakerDate
+  from T_SaleBill
+  where FBillMakerId is not null
+     或者用子查询 
+  select (select count(*) from T_SaleBill t1 from where t1.Fid<t1.Fid and FBillMakerId is not null) as rn,
+  	t2.Fnumber, t2.FMakeDate
+  from T_SaleBill t2
+  where t2.FBillMakerId is not null                
+8 SQL优化
+  1.创建索引
+  2.使用预编译查询
+  3.调整where中的查询顺序，从下往上执行
+  4.select 中避免使用*
+  5.尽量将多条sql压缩到一条sql中
+  6.使用where带地having字句：因为having对检索结果进行过滤
+  7.使用别名，并把别名前缀放到列前面
+  8.用exists代替in: eg select * from T_Employee where FNumber>0 and FDEPTNO in (select FNumber from T_Department where FManagerName='TOM')
+            exist代替：select * from T_Employee where FNumber>0 and exists (select 1 from T_Department where T_Department.FDEPTNO=T_Employee.FNumber and FManagerName='TOM')   
+  9.避免在索引列上使用计算
+  10.使用union all 代替union:(如果结果中没有重复记录)
+  11.避免隐式类型转换：比如 select * from T_Employee where Flevel=10 (这里Flevel列式字符串类型)
+                    这句话相当于                   select * from T_Employee where to_number(Flevel)=10 所以Flevel上的索引会失效
+                    正确的用法                        select * from T_Employee where Flevel='10'
+  12.防止检索范围过宽，当返回大部分数据的时候，有可能会全表扫描而放弃使用索引
+9 事务
+  
+  
+10 查询字段中有回车的SQL
+	select  (id ||'='||message) as msg  from std_message where id like 'CG%' and type='form' and message like '%
+%'
+   update：
+	   update std_message set message = replace(message,chr(10),' ')
+		where id like 'CG%' and type='form' and message like '%
+		%'                                               
+                         

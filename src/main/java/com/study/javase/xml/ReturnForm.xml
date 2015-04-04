@@ -1,0 +1,153 @@
+<RetForm>
+	<employee_tax_exemption_code />
+	<insurance_type />
+	<employee_insurance_fund_name />
+	<employee_insurance_number />
+	<employee_cooperation_contract_number />
+	<employee_cooperation_contract_date />
+	<employee_position />
+	<employee_status_code />
+	<employer_name />
+	<employer_trade_name />
+	<employer_address />
+	<net_taxable_income>5600.00</net_taxable_income>
+	<net_tax_due>350.00</net_tax_due>
+	<total_paid_tax>100.00</total_paid_tax>
+	<tax_due_payable>250.00</tax_due_payable>
+	<table1_payments_made>
+		<slip_number>1</slip_number>
+		<slip_date>2012-05-07T00:00:00</slip_date>
+		<bank />
+		<branch />
+		<amount>2000.00</amount>
+	</table1_payments_made>
+	<table1_payments_made>
+		<slip_number>2</slip_number>
+		<slip_date>2012-05-05T00:00:00</slip_date>
+		<bank />
+		<branch />
+		<amount>3000.00</amount>
+	</table1_payments_made>
+	<table1_payments_made>
+		<slip_number>3</slip_number>
+		<slip_date>2012-06-12T00:00:00</slip_date>
+		<bank />
+		<branch />
+		<amount>1000.00</amount>
+	</table1_payments_made>
+	<table2_received_calculation_and_wage_tax_calculation>
+		<t2_month>2</t2_month>
+		<gross_salary />
+		<gross_overtime />
+		<deferred_payments />
+		<total_cash_income>3000.00</total_cash_income>
+		<art91_deduction />
+		<art84_deduction />
+		<net_cash_income>2800.00</net_cash_income>
+		<non_cash_income />
+		<vehicle_flag>01</vehicle_flag>
+		<housing_flag>01</housing_flag>
+		<hosuing_benefit>0.00</hosuing_benefit>
+		<vehicle_benefit>0.00</vehicle_benefit>
+		<total_non_cash_benefits>1000.00</total_non_cash_benefits>
+		<art91_13_exemption />
+		<net_non_cash_benefits>900.00</net_non_cash_benefits>
+		<bonus />
+		<art91_cluase_10_13_deduction />
+		<net_bonus>900.00</net_bonus>
+		<total_net_income>4600.00</total_net_income>
+		<payment_excess />
+		<adjusted_total_net_income>5600.00</adjusted_total_net_income>
+		<applicable_tax />
+		<tax_rebate_art92 />
+		<amount_of_extra_tax_paid />
+		<adjusted_total_tax>350.00</adjusted_total_tax>
+		<table_1_sum>100.00</table_1_sum>
+		<net_tax_payable>250.00</net_tax_payable>
+	</table2_received_calculation_and_wage_tax_calculation>
+	<table2_received_calculation_and_wage_tax_calculation>
+		<t2_month>3</t2_month>
+		<gross_salary />
+		<gross_overtime />
+		<deferred_payments />
+		<total_cash_income>3000.00</total_cash_income>
+		<art91_deduction />
+		<art84_deduction />
+		<net_cash_income>2800.00</net_cash_income>
+		<non_cash_income />
+		<vehicle_flag>01</vehicle_flag>
+		<housing_flag>01</housing_flag>
+		<hosuing_benefit>0.00</hosuing_benefit>
+		<vehicle_benefit>0.00</vehicle_benefit>
+		<total_non_cash_benefits>1000.00</total_non_cash_benefits>
+		<art91_13_exemption />
+		<net_non_cash_benefits>900.00</net_non_cash_benefits>
+		<bonus />
+		<art91_cluase_10_13_deduction />
+		<net_bonus>900.00</net_bonus>
+		<total_net_income>4600.00</total_net_income>
+		<payment_excess />
+		<adjusted_total_net_income>5600.00</adjusted_total_net_income>
+		<applicable_tax />
+		<tax_rebate_art92 />
+		<amount_of_extra_tax_paid />
+		<adjusted_total_tax>350.00</adjusted_total_tax>
+		<table_1_sum>100.00</table_1_sum>
+		<net_tax_payable>250.00</net_tax_payable>
+	</table2_received_calculation_and_wage_tax_calculation>
+	<table2_received_calculation_and_wage_tax_calculation>
+		<t2_month>1</t2_month>
+		<gross_salary />
+		<gross_overtime />
+		<deferred_payments />
+		<total_cash_income>3000.00</total_cash_income>
+		<art91_deduction />
+		<art84_deduction />
+		<net_cash_income>2800.00</net_cash_income>
+		<non_cash_income />
+		<vehicle_flag>01</vehicle_flag>
+		<housing_flag>01</housing_flag>
+		<hosuing_benefit>0.00</hosuing_benefit>
+		<vehicle_benefit>0.00</vehicle_benefit>
+		<total_non_cash_benefits>1000.00</total_non_cash_benefits>
+		<art91_13_exemption />
+		<net_non_cash_benefits>900.00</net_non_cash_benefits>
+		<bonus />
+		<art91_cluase_10_13_deduction />
+		<net_bonus>900.00</net_bonus>
+		<total_net_income>4600.00</total_net_income>
+		<payment_excess />
+		<adjusted_total_net_income>5600.00</adjusted_total_net_income>
+		<applicable_tax />
+		<tax_rebate_art92 />
+		<amount_of_extra_tax_paid />
+		<adjusted_total_tax>350.00</adjusted_total_tax>
+		<table_1_sum>100.00</table_1_sum>
+		<net_tax_payable>250.00</net_tax_payable>
+	</table2_received_calculation_and_wage_tax_calculation>
+	<total_amount_of_gross_salary />
+	<total_amount_of_gross_overtime />
+	<total_amount_of_deferred_payments />
+	<total_amount_of_total_cash_income>9000.00</total_amount_of_total_cash_income>
+	<total_amount_of_art91_deduction />
+	<total_amount_of_art84_deduction />
+	<total_amount_of_net_cash_income>8400.00</total_amount_of_net_cash_income>
+	<total_amount_of_non_cash_income />
+	<total_amount_of_hosuing_benefit>0.00</total_amount_of_hosuing_benefit>
+	<total_amount_of_vehicle_benefit>0.00</total_amount_of_vehicle_benefit>
+	<total_amount_of_total_non_cash_benefits>3000.00</total_amount_of_total_non_cash_benefits>
+	<total_art91_13_exemption />
+	<total_net_non_cash_benefits>2700.00</total_net_non_cash_benefits>
+	<total_amount_of_bonus />
+	<total_amount_of_art91_cluase_10_13_deduction />
+	<total_amount_of_net_bonus>2700.00</total_amount_of_net_bonus>
+	<total_amount_of_total_net_income>13800.00</total_amount_of_total_net_income>
+	<total_amount_of_payment_excess />
+	<total_amount_of_adjusted_total_net_income>16800.00</total_amount_of_adjusted_total_net_income>
+	<total_amount_of_applicable_tax />
+	<total_amount_of_tax_rebate_art92 />
+	<total_amount_of_amount_of_extra_tax_paid />
+	<total_amount_of_adjusted_total_tax>1050.00</total_amount_of_adjusted_total_tax>
+	<total_amount_of_table_1_sum>300.00</total_amount_of_table_1_sum>
+	<total_amount_of_net_tax_payable>750.00</total_amount_of_net_tax_payable>
+</RetForm>

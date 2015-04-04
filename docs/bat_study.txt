@@ -1,0 +1,59 @@
+@echo off      
+REM Author Alex liu 2010-12-24
+
+cls      
+title  Muti Choice Function      
+:menu      
+cls      
+color 0A      
+echo.      
+echo          ==============================      
+echo          Give your choice    
+echo          ==============================      
+echo.      
+echo        1.aaaa      
+echo.      
+echo        2.bbbb      
+echo.      
+echo        3.cccc      
+echo.      
+echo        4.dddd      
+echo.      
+echo        Q.Exit      
+echo.      
+echo.      
+:cho      
+::set choice=      
+
+set /p choice=Choice:
+     
+if /i "%choice%"=="1" goto ip      
+if /i "%choice%"=="2" goto setsave      
+if /i "%choice%"=="3" goto kaiji      
+if /i "%choice%"=="4" goto clean
+if /i "%choice%"=="Q" goto end     
+echo  Please Enter Again      
+echo.      
+goto cho 
+
+:ip
+echo ip start...
+goto cho
+ 
+:setsave
+echo set save start...
+goto cho
+
+:kaiji
+echo kaiji start...
+goto cho
+
+:clean
+echo clean start...
+goto cho
+
+:end
+echo END Program will exit!
+
+
+pause

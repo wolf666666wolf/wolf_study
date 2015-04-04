@@ -1,0 +1,5 @@
+
+Oracle:
+1. new --> Explain Plan Window
+从这个窗口执行可以看到SQL执行计划
+

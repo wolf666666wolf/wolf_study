@@ -1,0 +1,120 @@
+
+#1 硬盘分区工具 gparted: 
+    yum install gparted
+#2     
+
+#4，设置中文输入法
+　　在应用里面查找“Input Method selector”（输入法切换器），打开后选择“Show all”（显示所有输入法），选择“Chinese”，添加“Pinyin输入法”即可。
+　　中文输入法还有Fcitx小企鹅输入法、ibus-sunpinyin、ibus-googlepinyin、fcitx-googlepinyin、小小输入法等。
+　　Fcitx 小企鹅输入法:
+　　sudo yum install fcitx
+　　ibus-sunpinyin:
+　　sudo yum install ibus-sunpinyin
+　　ibus-googlepinyin & Fcitx-googlepinyin编译:点击查看
+
+#5，多媒体编码 & Flash 插件
+　　Multi-media-codec:为了正常播放音频、视频文件格式，需安装多媒体编码
+　　yum localinstall –nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-rawhide.noarch.rpm
+　　yum install ffmpeg ffmpeg-libs gstreamer-ffmpeg xvidcore libdvdread libdvdnav lsdvd
+　　yum install gstreamer-plugins-good gstreamer-plugins-bad gstreamer-plugins-ugly
+　　Flash 插件:
+　　点击Adobe Flash Player官网下载.rpm包，下载完成，点击安装即可。
+
+#6,优秀集成工具推荐：
+	1Ailurus小熊猫；Autoplus；Fedora Utils；Easy Life
+	Ailurus小熊猫:著名的系统设置、软件工具
+	安装Ailurus小熊猫软件,笔者把他理解成Fedora下的360可以帮你安装各种呢个软件
+	#wget http://homerxing.fedorapeople.org/ailurus.repo -O /etc/yum.repos.d/ailurus.repo
+	#yum makecache
+	#yum install ailurus 
+	安装完毕，从“系统工具”里面启动即可。不再赘述。
+	2Autoplus
+	简介：可用Autoplus进行安装/卸载 Adobe Flash, codecs, Google Earth, Skype, Sun Java, VirtualBox, WinFF, Imagination, Cinelerra, Hugin Panorama Creator, Lightscribe, Dropbox等操作。
+	su -c ‘yum -y –nogpgcheck install http://dnmouse.org/autoplus-1.2-5.noarch.rpm’
+	如果有必要，可导入签名（可选项）：
+	su -c ‘rpm –import http://dnmouse.org/RPM-GPG-KEY-dnmouse’
+	目前，vbox 和 dropbox 还不支持Fedora 16。具体查看主页：dnmouse.org/autoten/。
+	
+	3Fedora Utils
+	应用安装与系统设置脚本，可安装Adobe Flash, codecs, Sun Java, Adobe Air, Wine, Google Earth, GTalk plugin, MS Truetype Fonts 等其他常用应用。
+	主页 | 下载：click here
+
+
+#7,常用应用
+	兔兔将常用应用分为邮件、文件分享、IM、图形图像、播放器、音视频编辑、系统工具、IDE、办公应用
+
+	1邮件
+		Thunderbird邮件客户端(Fedora 16 默认为Evolution)
+		sudo yum install thunderbird
+
+	2文件分享
+		Transmission(BT客户端)
+		sudo yum install transmission
+	3Filezilla(FTP客户端)：
+		sudo yum install filezilla
+	4即时通讯IM
+		Pidgin（同Empathy）：
+		sudo yum install pidgin
+		Emesene（MSN客户端）：
+		sudo yum install emesene
+
+	5图形图像
+		shutter(截图、截屏)：
+		sudo yum install shutter
+		Gimp：
+		sudo yum install gimp
+		Dia（流程图）:
+		sudo yum install dia
+		Inkscape（矢量做图）：
+		sudo yum install inkscape
+		Gthumb（图像浏览器）：
+		sudo yum install gthumb
+		Pinta（小Gimp）：
+		sudo yum install pinta
+
+	6播放器
+		vlc：
+		sudo yum install vlc
+		Banshee(音乐播放器)：
+		sudo yum install banshee
+		音视频编辑
+		Pitivi（视频编辑）：
+		sudo yum install pitivi
+		Audacity（音频编辑）：
+		sudo yum install audacity
+	7系统类工具
+		Gnome Do（快速文件搜索）：
+		sudo yum install gnome-do
+		Compiz（特性设置器）:
+		sudo yum install compiz-manager
+		sudo yum install ccsm
+		p7zip （解压缩工具）：
+		sudo yum install p7zip
+		Virtualbox（虚拟机）：
+		sudo yum install virtualbox-ose
+		Terminator（优秀命令终端）：
+		sudo yum install terminator
+	8办公
+		Stardict（星际词典）：
+		sudo yum install stardict
+		Chmsee（CHM文件阅读器）：
+		sudo yum install chmsee
+		LibreOffice（Office套件）：
+		sudo yum install libreoffice
+		Foxit（福晰PDF阅读器）：
+		点击下载：官网
+	9IDE
+		Anjuta：
+		sudo yum install anjuta
+		Code::Blocks：
+		sudo yum install codeblocks
+		Eclipse:
+		sudo yum install eclipse-platform
+		版本控制
+		sudo yum install subversion git bzr
+
+	10网络应用
+		PPStream（PPS 网络电视）： #rpm -ivh  http://download.ppstream.com/linux/PPStream.rpm
+		Google Chrome（网页浏览器）：
+
+其他软件，可以从Fedora 16 的“添加/删除软件”应用搜索即可。

@@ -1,0 +1,86 @@
+\u04bb,\ufffd\ufffd\u03b4\ufffd\ufffd\ufffdwebapp
+   1. mvn archetype:create -DgroupId=com.mycompany.app -DartifactId=wolf-study -DarchetypeArtifactId=maven-archetype-webapp
+   2. mvn eclipse:eclipse
+   
+   3. mvn install:install-file -Dfile=*****.jar -DgroupId=**** -DartifactId=**** -Dversion=1.0 -Dpackaging=jar 
+   
+   
+   
+   maven repository
+   http://mvnrepository.com
+   
+   download src
+   maven dependency:sources
+   or  mvn eclipse:eclipse -DdownloadSources=true
+   
+   dowload java doc
+   mvn eclipse:eclipse -DdownloadJavadocs=true
+   
+   mvn extra lib
+   m2e-extras - http://m2eclipse.sonatype.org/sites/m2e-extras
+   				 http://m2eclipse.sonatype.org/sites/m2e/
+   				 
+   				 
+##################### maven command
+1、生成新的项目   
+mvn archetype:create -DgroupId=com.xxx.self -DartifactId=xxx-self
+
+2、生成 eclipse项目
+mvn eclipse:eclipse  -DdownloadSources=true 
+
+注：-DdownloadSources=true 表示下载源码包
+
+3、项目生成jar 包 
+mvn package -Dtest -DfailIfNoTests=false
+
+4、项目生成 java doc
+mvn package  -Dtest javadoc:javadoc -DfailIfNoTests=false
+mvn package  -Dtest -DfailIfNoTests=false
+mvn -U -Dtest clean package assembly:assembly  -DfailIfNoTests=false
+
+
+注：忽略测试-DfailIfNoTests=false
+
+ 
+
+5、产生项目原文件
+mvn source:jar
+
+6、生成DocBook
+mvn taobaodoc:transform
+
+7、提交本地库
+
+mvn install  标准格式 
+mvn source:jar  install  -Dmaven.test.skip=true 
+
+注：
+
+   source:jar 安装源码jar包
+
+   -Dmaven.test.skip=true  忽略单元测试
+
+8、项目的整个依赖树
+mvn dependency:tree
+
+mvn dependency:resolve ???
+
+常用的也就这些了。具体参数含义，还要参考maven2官方文档。
+
+ 
+
+附录：
+
+eclipse设置classpath ：M2_REPO 
+
+1、windows -> perferences -> java -> Build Path -> ClassPath Variable
+
+     新增 M2_REPO  指向maven的repos路径 
+
+    eg：M2_REPO = d:/repos
+
+
+
+
+
+   
