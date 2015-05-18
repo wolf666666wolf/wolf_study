@@ -1,0 +1,6 @@
+1. jmap
+   jmap -dump:format=b,file=c:\heap.hprof 12028            --exprot dump file
+   jmap -histo 12028 > c:\s.txt
+2. jps check java process
+   
+   

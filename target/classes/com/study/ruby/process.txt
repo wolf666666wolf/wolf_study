@@ -1,0 +1,14 @@
+1. if unless
+   if age <18
+      puts "aaa"
+      puts "bbb"
+   end
+   
+   unless与if 相反
+   case
+   while until
+2.代码块
+   x.each{|y| puts y}
+   x.each do |y|
+     puts y
+   end   

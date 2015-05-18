@@ -1,0 +1,23 @@
+1. x=[]
+   x << "zhangsan"
+2. 数组迭代
+   [1,2,"zhangsan","lisi"].each {|element| puts element.to_s + "X"}
+   [1, 2, 3, 4].collect{|element| element*2}
+       
+       数据加减
+   x=[1,2,3]
+   y=["a","b","c"]
+   z=x+y 
+   result:[1,2,3,"a","b","c"]
+   x-y 结果[1,2,3]
+   
+       数组空与包含
+   x=[1,2,3]
+   x.empty?
+   x.include?("x")
+   x.include?(3)
+   x.first
+   x.last
+3.散列表
+  dictionary={'cat'=>'cat name', 'dog'=>'dog name'}
+     
